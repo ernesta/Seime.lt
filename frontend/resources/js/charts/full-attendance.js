@@ -11,12 +11,20 @@ jQuery(document).ready( function() {
 		title: {
 			text: 'Individualių Seimo narių dalyvavimas posėdyje',
 			style: {
-				color: '#02385C'
+				color: '#02385C',
+				fontSize: '16px',
+				marginBottom: '5px',
+				fontFamily: '"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif'
 			}
 		},
 		
 		subtitle: {
 			text: 'Tamsesnė spalva - dalyvauta, šviesesnė spalva - nedalyvauta',
+			style: {
+				color: '#6D869F',
+				fontSize: '12px',
+				fontWeight: 'normal'
+			}
 		},
 
 		xAxis: {
@@ -43,6 +51,10 @@ jQuery(document).ready( function() {
 		legend: {
 			enabled: false
 		},
+		
+		credits: {
+			enabled: false
+		},
 
 		plotOptions: {
 			series: {
@@ -52,7 +64,8 @@ jQuery(document).ready( function() {
 				enableMouseTracking: false, 
 				animation: false
 			}
-		},		
+		},
+		
 		series: SittingDynamics_Series
 	});
 	}

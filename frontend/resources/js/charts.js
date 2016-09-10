@@ -35,6 +35,7 @@ $(document).ready(function() {
 					marginLeft: 60,
 					marginRight: 20,
 					zoomType: 'x',
+					
 					events: {
 						selection: function(event) {
 							var extremesObject = event.xAxis[0];
@@ -120,7 +121,15 @@ $(document).ready(function() {
 				],
 
 				legend: {
-					enabled: true
+					enabled: true,
+					itemStyle: {
+						fontWeight: "normal",
+						color: "#3E576F"
+					}
+				},
+				
+				credits: {
+					enabled: false
 				},
 
 				plotOptions: {
@@ -246,6 +255,10 @@ $(document).ready(function() {
 				legend: {
 					enabled: false
 				},
+				
+				credits: {
+					enabled: false
+				},
 
 				plotOptions: {
 					series: {
@@ -295,7 +308,7 @@ $(document).ready(function() {
 	voting = new Highcharts.Chart({
 		chart: {
 			renderTo: 'individual-voting',
-			margin: [0, 0, 0, 0],
+			margin: [30, 30, 30, 30],
 			plotBackgroundColor: 'none',
 			plotBorderWidth: 0,
 			plotShadow: false
@@ -304,12 +317,20 @@ $(document).ready(function() {
 		title: {
 			text: 'Seimo nario balsavimo statistika',
 			style: {
-				color: '#02385C'
+				color: '#02385C',
+				fontSize: '16px',
+				marginBottom: '5px',
+				fontFamily: '"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif'
 			}
 		},
 
 		subtitle: {
-			text: 'Vidinis grafikas: bendra Seimo narių statistika<br/>Išorinis grafikas: šio Seimo nario statistika'
+			text: 'Vidinis grafikas: bendra Seimo narių statistika<br/>Išorinis grafikas: šio Seimo nario statistika',
+			style: {
+				color: '#6D869F',
+				fontSize: '12px',
+				fontWeight: 'normal'
+			}
 		},
 
 		tooltip: {
@@ -317,6 +338,18 @@ $(document).ready(function() {
 				return '<b>'+ this.series.name +'</b><br/>'+
 				this.point.name +': '+ Highcharts.numberFormat(this.y, 1) +'%';
 			}
+		},
+		
+		legend: {
+			enabled: true,
+			itemStyle: {
+				fontWeight: "normal",
+				color: "#3E576F"
+			}
+		},
+		
+		credits: {
+			enabled: false
 		},
 
 		series: [{
@@ -399,6 +432,10 @@ $(document).ready(function() {
 				title: {
 					text: null
 				},
+				
+				credits: {
+					enabled: false
+				},
 
 				xAxis: {
 					type: 'datetime',
@@ -439,7 +476,11 @@ $(document).ready(function() {
 				],
 
 				legend: {
-					enabled: true
+					enabled: true,
+					itemStyle: {
+						fontWeight: "normal",
+						color: "#3E576F"
+					}
 				},
 
 				plotOptions: {
@@ -528,12 +569,20 @@ $(document).ready(function() {
 				title: {
 					text: 'Vidutinio Seimo nario darbo valandų statistika',
 					style: {
-						color: '#02385C'
+						color: '#02385C',
+						fontSize: '16px',
+						marginBottom: '5px',
+						fontFamily: '"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif'
 					}
 				},
 
 				subtitle: {
-					text: 'Detalesnė informacija pasiekiama pažymėjus dominantį periodą pele apatiniame grafike'
+					text: 'Detalesnė informacija pasiekiama pažymėjus dominantį periodą pele apatiniame grafike',
+					style: {
+						color: '#6D869F',
+						fontSize: '12px',
+						fontWeight: 'normal'
+					}
 				},
 
 				xAxis: {
@@ -564,6 +613,10 @@ $(document).ready(function() {
 				},
 
 				legend: {
+					enabled: false
+				},
+				
+				credits: {
 					enabled: false
 				},
 
@@ -626,7 +679,10 @@ $(document).ready(function() {
 		title: {
 			text: 'Dirbtų valandų dalis pagal frakcijas*',
 			style: {
-				color: '#02385C'
+				color: '#02385C',
+				fontSize: '16px',
+				marginBottom: '5px',
+				fontFamily: '"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif'
 			}
 		},
 
@@ -650,6 +706,10 @@ $(document).ready(function() {
 		},
 
 		legend: {
+			enabled: false
+		},
+		
+		credits: {
 			enabled: false
 		},
 
@@ -688,7 +748,10 @@ $(document).ready(function() {
 		title: {
 			text: 'Dirbtų valandų dalis pagal mėnesius',
 			style: {
-				color: '#02385C'
+				color: '#02385C',
+				fontSize: '16px',
+				marginBottom: '5px',
+				fontFamily: '"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif'
 			}
 		},
 
@@ -712,6 +775,10 @@ $(document).ready(function() {
 		},
 
 		legend: {
+			enabled: false
+		},
+		
+		credits: {
 			enabled: false
 		},
 
@@ -742,7 +809,7 @@ $(document).ready(function() {
 			plotBackgroundColor: null,
 			plotBorderWidth: null,
 			plotShadow: false,
-			margin: [20, 0, 50, 0]
+			margin: [20, 35, 20, 35]
 		},
 
 		colors: [
@@ -755,7 +822,10 @@ $(document).ready(function() {
 		title: {
 			text: 'Bendra Seimo narių balsavimo statistika',
 			style: {
-				color: '#02385C'
+				color: '#02385C',
+				fontSize: '16px',
+				marginBottom: '5px',
+				fontFamily: '"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif'
 			}
 		},
 
@@ -773,6 +843,18 @@ $(document).ready(function() {
 					enabled: false
 				},
 				showInLegend: true
+			}
+		},
+		
+		credits: {
+			enabled: false
+		},
+		
+		legend: {
+			enabled: true,
+			itemStyle: {
+				"fontWeight": "normal",
+				color: "#3E576F"
 			}
 		},
 
@@ -801,7 +883,10 @@ $(document).ready(function() {
 		title: {
 			text: 'Balsavimų pasiskirstymas pagal dalyvių skaičių',
 			style: {
-				color: '#02385C'
+				color: '#02385C',
+				fontSize: '16px',
+				marginBottom: '5px',
+				fontFamily: '"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif'
 			}
 		},
 
@@ -842,6 +927,10 @@ $(document).ready(function() {
 		legend: {
 			enabled: false
 		},
+		
+		credits: {
+			enabled: false
+		},
 
 		tooltip: {
 			formatter: function() {
@@ -873,7 +962,10 @@ $(document).ready(function() {
 		title: {
 			text: 'Balsų pasiskirstymas pagal balsavimo rezultatą',
 			style: {
-				color: '#02385C'
+				color: '#02385C',
+				fontSize: '16px',
+				marginBottom: '5px',
+				fontFamily: '"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif'
 			}
 		},
 
@@ -887,9 +979,12 @@ $(document).ready(function() {
 				'Balsavo UŽ',
 				'Balsavo PRIEŠ',
 				'Susilaikė',
-				'Užsiregistravo, bet nebalsavo',
+				'Užsiregistravo, tačiau nebalsavo',
 				'Nedalyvavo'
-			]
+			],
+			labels: {
+				autoRotation: false
+			}
 		},
 
 		yAxis: {
@@ -904,7 +999,15 @@ $(document).ready(function() {
         },
 
         legend: {
-			enabled: true
+			enabled: true,
+			itemStyle: {
+				fontWeight: "normal",
+				color: "#3E576F"
+			}
+		},
+		
+		credits: {
+			enabled: false
 		},
 
 		tooltip: {
@@ -941,7 +1044,10 @@ $(document).ready(function() {
 		title: {
 			text: 'Balsų UŽ dalis balsavimuose,<br/>kurių rezultatas NEPRITARTA',
 			style: {
-				color: '#02385C'
+				color: '#02385C',
+				fontSize: '16px',
+				marginBottom: '5px',
+				fontFamily: '"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif'
 			}
 		},
 
@@ -976,6 +1082,10 @@ $(document).ready(function() {
 		},
 
 		legend: {
+			enabled: false
+		},
+		
+		credits: {
 			enabled: false
 		},
 

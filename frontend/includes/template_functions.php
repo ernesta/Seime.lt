@@ -332,8 +332,6 @@
 	}
 
 	function getSittingImage($id) {	
-//		if (file_exists(dirname(__FILE__) . "/../images/sitting-dynamics/sitting-dynamics-$id.png")) {	return "<img src=\"http://seime.lt/images/sitting-dynamics/sitting-dynamics-$id.png\" />";
-//		}
 		if (file_exists("frontend/content/sitting-dynamics/sitting-dynamics-$id.png")) {
 			return '<img src="frontend/content/sitting-dynamics/sitting-dynamics-' . $id . '.png" />';
 		}

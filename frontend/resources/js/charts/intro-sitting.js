@@ -37,6 +37,10 @@ if (document.getElementById('sitLink') != null) {
 			legend: {
 				enabled: false
 			},
+			
+			credits: {
+				enabled: false
+			},
 
 			tooltip: {
 				formatter: function() {				

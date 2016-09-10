@@ -44,6 +44,10 @@ $(document).ready(function() {
 			legend: {
 				enabled: false
 			},
+			
+			credits: {
+				enabled: false
+			},
 
 			tooltip: {
 				formatter: function() {
@@ -97,6 +101,10 @@ $(document).ready(function() {
 					}
 				}
 			},
+			
+			credits: {
+				enabled: false
+			},
 
 			series: [{
 				type: 'pie',
@@ -146,6 +154,10 @@ $(document).ready(function() {
 		},
 
 		legend: {
+			enabled: false
+		},
+		
+		credits: {
 			enabled: false
 		},
 

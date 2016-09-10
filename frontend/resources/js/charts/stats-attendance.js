@@ -4,7 +4,7 @@ jQuery(document).ready( function() {
 		chart: {
 			renderTo: 'stats-attendance',
 			defaultSeriesType: 'area',
-			margin: [50, 10, 50, 50],
+			margin: [50, 10, 50, 60],
 			spacingTop: 0			
 		},
 
@@ -49,6 +49,10 @@ jQuery(document).ready( function() {
 		},
 
 		legend: {
+			enabled: false
+		},
+		
+		credits: {
 			enabled: false
 		},
 

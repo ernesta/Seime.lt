@@ -39,7 +39,8 @@
 	<!-- Tangerine -->
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine" >
 	
-	<script type="text/javascript" src="frontend/resources/js/highcharts.js"></script>
+	<!--<script type="text/javascript" src="frontend/resources/js/highcharts.js"></script>-->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highcharts/4.2.6/highcharts.js"></script>
 	<script type="text/javascript" src="frontend/resources/js/charts.js"></script>
 	<script type="text/javascript" src="frontend/resources/js/charts/intro-charts.js"></script>
 	<script type="text/javascript" src="frontend/resources/js/charts/intro-sitting.js"></script>
