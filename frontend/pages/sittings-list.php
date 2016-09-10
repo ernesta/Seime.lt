@@ -1,7 +1,7 @@
 <div class="clearfix" id="sittings">
 	<span id="sitting-year-span">
 		<select id="sitting-year">
-			<option value="2008" selected="selected">2016</option>
+			<option value="2008" selected="selected">2008</option>
 			<option value="2009">2009</option>
 			<option value="2010">2010</option>
 			<option value="2011">2011</option>
@@ -9,7 +9,7 @@
 			<option value="2013">2013</option>
 			<option value="2014">2014</option>
 			<option value="2015">2015</option>
-			<option value="2015">2016</option>
+			<option value="2016">2016</option>
 		</select>
 	</span>
 	
@@ -31,15 +31,12 @@
 	</span>
 	
 	<script type="text/javascript">
-	if ((jQuery('#sitting-year option:selected').val() == '2008') && (jQuery('#sitting-month option:selected').val() == '1')) {	
-		jQuery('#sitting-month option[value=' + (new Date().getMonth()) + ']').attr('selected', 'selected');
+		jQuery('#sitting-month option[value=' + (new Date().getMonth() + 1) + ']').attr('selected', 'selected');
 		jQuery('#sitting-year option[value=' + new Date().getFullYear() + ']').attr('selected', 'selected');
 		jQuery("#sitting-month").trigger("liszt:updated");
 		jQuery("#sitting-year").trigger("liszt:updated");
-	}
 	</script>
 	
-	<script src="frontend/resources/chosen/chosen.jquery.min.js" type="text/javascript"></script>
 	<script type="text/javascript">
 		$("#sitting-year").chosen({no_results_text: "Nerasta"});
 		$("#sitting-month").chosen({no_results_text: "Nerasta"});

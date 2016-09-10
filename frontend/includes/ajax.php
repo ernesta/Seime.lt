@@ -1,10 +1,10 @@
 <?php 
+	date_default_timezone_set('Europe/Zurich');
 
 	if ((isset($_GET['year'])) && (isset($_GET['month']))) {
-		require_once('includes/includes.php');
+		require_once(dirname(__FILE__) . '/includes.php');
 		Initialisator::initialise();
-		//require_once('includes/DB.php');
-		require_once('includes/template_functions.php');
+		require_once(dirname(__FILE__) . '/template_functions.php');
 			try { 
 				//$db = new DB('mysql:dbname=aurimas_seime-lt;host=localhost', 'aurimas_seime-lt', '~3&fmls[$Pj(u`hU=Vaisz.A:,3)qvfd}xAXR-.MR5Mx:MVXNYL`M)A:c.b?DRWS', array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES \'UTF8\''));
 				$db = Initialisator::getDB();

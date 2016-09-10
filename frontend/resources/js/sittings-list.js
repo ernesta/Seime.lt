@@ -25,7 +25,7 @@ function showCalendar() {
 	jQuery("#sitting-month").trigger("liszt:updated");
 	jQuery("#sitting-year").trigger("liszt:updated");    
 	currentCalendarAjax = jQuery.ajax({
-  	url: 'ajax.php',
+  	url: 'frontend/includes/ajax.php',
   	data: 'year=' + year + '&month=' + month,
  		success: function(data) { 
 			jQuery('#sitting-month option[value=' + currentCalendarAjax.month + ']').attr('selected', 'selected');
