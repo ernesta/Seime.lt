@@ -1,10 +1,13 @@
+# Folders
 downloads
 fancybox
 people
-settings
 sitting-dynamics
 tools
 trumpai
+
+# Files
+settings/settings.ini
 
 # OS stuff
 .DS_Store

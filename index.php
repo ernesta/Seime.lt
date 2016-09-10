@@ -36,11 +36,11 @@
 
 	<?php foreach ($OBJECTS as $object) { $object->populateAll(); } ?>
 
-	<script type="text/javascript">//
-//		jQuery(document).ready(function() {
-//			jQuery("a.fancy").fancybox({'padding': 20});
-//		});
-//	</script>
+	<script type="text/javascript">
+		jQuery(document).ready(function() {
+			jQuery("a.fancy").fancybox({'padding': 20});
+		});
+	</script>
 </body>
 </html>
 

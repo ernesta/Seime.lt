@@ -28,16 +28,14 @@
 	
 	<!-- jQuery -->
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-	<!-- Easing -->
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 	<!-- Chosen -->
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.6.2/chosen.jquery.min.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.6.2/chosen.min.css" />
 	<!-- QuickSearch -->
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.quicksearch/2.3.0/jquery.quicksearch.min.js"></script>
 	<!-- Fancybox -->
-	<script src=type="text/javascript" "frontend/resources/js/jquery.fancybox.pack.js"></script>
-	<link rel="stylesheet" type="text/css" href="frontend/resources/fancybox/jquery.fancybox.css" />
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" />
 	<!-- Tangerine -->
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine" >
 	
