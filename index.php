@@ -22,11 +22,11 @@
 		</div>
 		
 		<div id="shareTab">
-			<a href="http://trumpai.seime.lt" title="Seime. Trumpai" target="_blank"><img src="frontend/resources/images/wordpress.png" alt="Seime. Trumpai"/></a>
+			<a href="http://trumpai.seime.lt" title="Seime. Trumpai" target="_blank"><img src="frontend/resources/images/sharing/wordpress.png" alt="Seime. Trumpai"/></a>
 			
-			<a href="http://twitter.com/SeimeLT" title="Twitter: @SeimeLT" target="_blank"><img src="frontend/resources/images/twitter.png" alt="Twitter"/></a>
+			<a href="http://twitter.com/SeimeLT" title="Twitter: @SeimeLT" target="_blank"><img src="frontend/resources/images/sharing/twitter.png" alt="Twitter"/></a>
 
-			<a href="https://www.facebook.com/Seime.lt" title="Facebook: Seime.lt" target="_blank"><img src="frontend/resources/images/facebook.png" alt="Facebook"/></a>
+			<a href="https://www.facebook.com/Seime.lt" title="Facebook: Seime.lt" target="_blank"><img src="frontend/resources/images/sharing/facebook.png" alt="Facebook"/></a>
 		</div>
 		
 		<div id="push"></div>

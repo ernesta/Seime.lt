@@ -8,10 +8,10 @@
 	<title><?php echo getPageTitle(); ?></title>
 
 	<link rel="shortcut icon" href="favicon.ico" />
-	<link rel="icon" type="image/png" href="frontend/resources/images/favicon.png" />
-	<link rel="apple-touch-icon" href="frontend/resources/images/favicon-apple-57.png" />
-	<link rel="apple-touch-icon" sizes="72x72" href="frontend/resources/images/favicon-apple-72.png" />
-	<link rel="apple-touch-icon" sizes="114x114" href="frontend/resources/images/favicon-apple-114.png" />
+	<link rel="icon" type="image/png" href="frontend/resources/images/favicons/favicon.png" />
+	<link rel="apple-touch-icon" href="frontend/resources/images/favicons/favicon-apple-57.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="frontend/resources/images/favicons/favicon-apple-72.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="frontend/resources/images/favicons/favicon-apple-114.png" />
 
 	<meta property="og:title" content="<?php echo getPageTitle(); ?>" />
 	<meta property="og:type" content="<?php echo getPageType(); ?>" />

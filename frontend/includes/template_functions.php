@@ -221,11 +221,13 @@
 	}
 
 	function getThumb($id) {
-		return 'http://seime.lt/images/people/thumbs/' . $id . '.jpg';
+//		return 'http://seime.lt/images/people/thumbs/' . $id . '.jpg';
+		return 'frontend/content/people/thumbs/' . $id . '.jpg';
 	}
 
 	function getImage($id) {
-		return 'http://seime.lt/images/people/full/' . $id . '.jpg';
+//		return 'http://seime.lt/images/people/full/' . $id . '.jpg';
+		return 'frontend/content/people/full/' . $id . '.jpg';
 	}
 
 	function getFractionList() {
@@ -330,8 +332,12 @@
 	}
 
 	function getSittingImage($id) {	
-		if (file_exists(dirname(__FILE__) . "/../images/sitting-dynamics/sitting-dynamics-$id.png")) {	return "<img src=\"http://seime.lt/images/sitting-dynamics/sitting-dynamics-$id.png\" />";
+//		if (file_exists(dirname(__FILE__) . "/../images/sitting-dynamics/sitting-dynamics-$id.png")) {	return "<img src=\"http://seime.lt/images/sitting-dynamics/sitting-dynamics-$id.png\" />";
+//		}
+		if (file_exists("frontend/content/sitting-dynamics/sitting-dynamics-$id.png")) {
+			return '<img src="frontend/content/sitting-dynamics/sitting-dynamics-' . $id . '.png" />';
 		}
+		
 		else return false;
 	}
 
