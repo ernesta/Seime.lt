@@ -1,0 +1,38 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteBase /
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+
+	RewriteRule ^lankomumas/?$ index.php?page=attendance [QSA] # lankomumo statistika (visos kadencijos)
+	RewriteRule ^lankomumas/([0-9-]+)/?$ index.php?page=attendance&cadency=$1 [QSA] # lankomumo statistika (pasirinkta kadencija)
+
+	RewriteRule ^balsavimas/?$ index.php?page=voting [QSA] # balsavimo statistika (visos kadencijos)
+	RewriteRule ^balsavimas/([0-9-]+)/?$ index.php?page=voting&cadency=$1 [QSA] # balsavimo statistika (pasirinkta kadencija)        
+
+	RewriteRule ^nariai/?$ index.php?page=individual [QSA] # narių sąrašas (visos kadencijos)
+	RewriteRule ^nariai/([0-9-]{9})/?$ index.php?page=individual&cadency=$1 [QSA] # narių sąrašas (pasirinkta kadencija)
+	
+	RewriteRule ^nariai/([0-9]+)/?$ index.php?page=individual&id=$1 [QSA] # nario statistika (visos kadencijos)
+	RewriteRule ^nariai/([0-9]+)/([0-9-]+)/?$ index.php?page=individual&id=$1&cadency=$2 [QSA] # nario statistika (pasirinkta kadencija)
+
+	RewriteRule ^labs/?$ index.php?page=labs [QSA]    
+	RewriteRule ^posedziai/?$ index.php?page=sitting [QSA]    
+	RewriteRule ^posedziai/(-?[0-9]+)/?$ index.php?page=sitting&sitting_id=$1 [QSA]    
+</IfModule>
+
+ErrorDocument 404 /index.php?page=error
+
+# Turn on Expires and set default to 0
+ExpiresActive On
+ExpiresDefault A0
+
+# 1 YEAR
+<FilesMatch "\.(jpg|jpeg|png|gif|svg|eot|ttc|ttf|otf)$">
+ExpiresDefault A29030400
+Header append Cache-Control "public"
+Header unset Last-Modified
+Header unset ETag
+FileETag None
+</FilesMatch>
+

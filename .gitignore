@@ -1,0 +1,16 @@
+downloads
+fancybox
+people
+settings
+sitting-dynamics
+tools
+trumpai
+
+# OS stuff
+.DS_Store
+.Trashes
+Thumbs.db
+
+# Editor stuff
+*.esproj
+*.espressostorage
