@@ -19,25 +19,25 @@
 			<ul class="tabnav">
 				<li id="tabAtt">
 					<a href="<?php echo cadencify('/lankomumas'); ?>">
-						<img style="<?php if($_GET['page'] == 'attendance') echo 'z-index:10' ?>" src="frontend/resources/images/<?php if($_GET['page'] == 'attendance') echo 'tab-lank.png'; else echo 'tab-lankomumas.png'; ?>" alt="Lankomumo statistika" />
+						<img style="<?php if(PAGE_VIEW == 'attendance') echo 'z-index:10' ?>" src="frontend/resources/images/<?php if(PAGE_VIEW == 'attendance') echo 'tab-lank.png'; else echo 'tab-lankomumas.png'; ?>" alt="Lankomumo statistika" />
 					</a>
 				</li>
 
 				<li id="tabVote">
 					<a href="<?php echo cadencify('/balsavimas'); ?>">
-						<img style="<?php if($_GET['page'] == 'voting') echo 'z-index:10' ?>" src="frontend/resources/images/<?php if($_GET['page'] == 'voting') echo 'tab-bals.png'; else echo 'tab-balsavimas.png'; ?>" alt="Balsavimo statistika" />
+						<img style="<?php if(PAGE_VIEW == 'voting') echo 'z-index:10' ?>" src="frontend/resources/images/<?php if(PAGE_VIEW == 'voting') echo 'tab-bals.png'; else echo 'tab-balsavimas.png'; ?>" alt="Balsavimo statistika" />
 					</a>
 				</li>
 
 				<li id="tabInd">
 					<a href="<?php echo cadencify('/nariai'); ?>">
-						<img style="<?php if($_GET['page'] == 'individual') echo 'z-index:10' ?>" src="frontend/resources/images/<?php if($_GET['page'] == 'individual') echo 'tab-ind.png'; else echo 'tab-individuali.png'; ?>" alt="Individuali statistika" />
+						<img style="<?php if(PAGE_VIEW == 'individual') echo 'z-index:10' ?>" src="frontend/resources/images/<?php if(PAGE_VIEW == 'individual') echo 'tab-ind.png'; else echo 'tab-individuali.png'; ?>" alt="Individuali statistika" />
 					</a>
 				</li>
 
 				<li>
 					<a href="/posedziai">
-						<img style="<?php if($_GET['page'] == 'sitting') echo 'z-index:10' ?>" src="frontend/resources/images/<?php if($_GET['page'] == 'sitting') echo 'tab-sit.png'; else echo 'tab-sittings.png'; ?>" alt="Posėdžių statistika" />
+						<img style="<?php if(PAGE_VIEW == 'sitting') echo 'z-index:10' ?>" src="frontend/resources/images/<?php if(PAGE_VIEW == 'sitting') echo 'tab-sit.png'; else echo 'tab-sittings.png'; ?>" alt="Posėdžių statistika" />
 					</a>
 				</li>				
 			</ul>
