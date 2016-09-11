@@ -254,6 +254,7 @@
 			case 'sitting': $title .= ' | ' . getSittingHeader(SITTING_ID); break;
 			case 'sitting-list': $title .= ' | Seimo posėdžių sąrašas'; break;
 			case 'voting': $title .= ' | Balsavimo statistika'; break;
+			case 'NTAKK': $title .= ' | NTAKK statistika'; break;
 		}
 	
 		return $title;
@@ -417,4 +418,15 @@
 		} else {
 			return $page;
 		}
+	}
+
+	function getLastNTAKKUpdate() {
+		global $DB;
+		return $DB->getVar('
+			SELECT DATE_FORMAT(MAX(sittings.end_time),"%Y-%m-%d") 
+			FROM `NTAKK` JOIN questions 
+				ON NTAKK.questions_id = questions.id 
+			JOIN sittings 
+				ON sittings.id = questions.sittings_id'
+		,array());
 	}
