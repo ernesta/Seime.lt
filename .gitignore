@@ -1,13 +1,13 @@
 # Folders
 downloads
-fancybox
-people
-sitting-dynamics
 tools
 trumpai
 
 # Files
 settings/settings.ini
+frontend/content/people/full/*.jpg
+frontend/content/people/thumbs/*.jpg
+frontend/content/sitting-dynamics/*.png
 
 # OS stuff
 .DS_Store
