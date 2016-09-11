@@ -179,7 +179,7 @@
 		$string = '';
 		$i = 0;
 	
-		$members = IndividualSQLs::getMemberList();
+		$members = IndividualSQLs::getNTAKKList();
 	
 		foreach ($members as $member) {
 			if ($member['cadency_end'] != '0000-00-00') {
@@ -189,18 +189,14 @@
 				$fraction = getFractionName($member['fraction']);
 				$f_class = $member['fraction'];
 			}
-			
-			$r1 = rand(1, 9) + rand(1, 10) / 10;
-			$r2 = rand(1, 9) + rand(1, 10) / 10;
-			$r3 = rand(1, 9) + rand(1, 10) / 10;
-			
-			$string .= '<li data-two=' . $r1 . ' data-one="' . $member['name'] . '" class="listMember clearfix ' . $f_class . '">';
+						
+			$string .= '<li data-two=' . $member['alcohol_rating'] . ' data-one="' . $member['name'] . '" class="listMember clearfix ' . $f_class . '">';
 			$string .= '<div class=member>';
 			$string .= '<div class=listImg><img src="' . getThumb($member['id'])  . '" alt="' . $member['name'] . '" /></div>';
 			$string .= '<a href="' . getMemberLink($member['id'])  . '" class=listName>' . $member['name'] . '</a>';
 			$string .= '<div class=listFraction>' . $fraction  . '</div>';
 			$string .= '</div>';
-			$string .= '<div class=ratings><span>' . $r1 . '</span><span>' . $r2 . '</span><span>' . $r3 . '</span></div>';
+			$string .= '<div class=ratings><span>' . $member['alcohol_rating'] . '</span><span>' . $member['tobacco_rating'] . '</span><span>' . $member['full_rating'] . '</span></div>';
 			$string .= '</li>';
 		}
 

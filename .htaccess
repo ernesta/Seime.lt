@@ -1,6 +1,7 @@
 <IfModule mod_rewrite.c>
 	RewriteEngine On
-	RewriteBase /
+#need to indicate path relative to root of your webserver
+	RewriteBase /seime.lt.frontend/ 
 	RewriteCond %{REQUEST_FILENAME} !-f
 	RewriteCond %{REQUEST_FILENAME} !-d
 
@@ -8,7 +9,9 @@
 	RewriteRule ^lankomumas/([0-9-]+)/?$ index.php?page=attendance&cadency=$1 [QSA] # lankomumo statistika (pasirinkta kadencija)
 
 	RewriteRule ^balsavimas/?$ index.php?page=voting [QSA] # balsavimo statistika (visos kadencijos)
-	RewriteRule ^balsavimas/([0-9-]+)/?$ index.php?page=voting&cadency=$1 [QSA] # balsavimo statistika (pasirinkta kadencija)        
+	RewriteRule ^balsavimas/([0-9-]+)/?$ index.php?page=voting&cadency=$1 [QSA] # balsavimo statistika (pasirinkta kadencija)
+
+	RewriteRule ^NTAKK/?$ index.php?page=NTAKK [QSA] # balsavimo statistika (visos kadencijos)
 
 	RewriteRule ^nariai/?$ index.php?page=individual [QSA] # narių sąrašas (visos kadencijos)
 	RewriteRule ^nariai/([0-9-]{9})/?$ index.php?page=individual&cadency=$1 [QSA] # narių sąrašas (pasirinkta kadencija)
