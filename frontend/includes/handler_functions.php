@@ -17,19 +17,19 @@
 		?>
 			<ul class="tabnav">
 				<li id="tabAtt">
-					<a href="<?php echo Initialisator::getBaseURL() . cadencify('/lankomumas'); ?>">
+					<a href="<?php echo Initialisator::getBaseURL() . cadencify('lankomumas'); ?>">
 						<img style="<?php if(PAGE_VIEW == 'attendance') echo 'z-index:10' ?>" src="frontend/resources/images/navigation/<?php if(PAGE_VIEW == 'attendance') echo 'tab-lank-dark.png'; else echo 'tab-lank.png'; ?>" alt="Lankomumo statistika" />
 					</a>
 				</li>
 
 				<li id="tabVote">
-					<a href="<?php echo Initialisator::getBaseURL() . cadencify('/balsavimas'); ?>">
+					<a href="<?php echo Initialisator::getBaseURL() . cadencify('balsavimas'); ?>">
 						<img style="<?php if(PAGE_VIEW == 'voting') echo 'z-index:10' ?>" src="frontend/resources/images/navigation/<?php if(PAGE_VIEW == 'voting') echo 'tab-bals-dark.png'; else echo 'tab-bals.png'; ?>" alt="Balsavimo statistika" />
 					</a>
 				</li>
 
 				<li id="tabInd">
-					<a href="<?php echo Initialisator::getBaseURL() . cadencify('/nariai'); ?>">
+					<a href="<?php echo Initialisator::getBaseURL() . cadencify('nariai'); ?>">
 						<img style="<?php if(PAGE_VIEW == 'individual') echo 'z-index:10' ?>" src="frontend/resources/images/navigation/<?php if(PAGE_VIEW == 'individual') echo 'tab-ind-dark.png'; else echo 'tab-ind.png'; ?>" alt="Individuali statistika" />
 					</a>
 				</li>
