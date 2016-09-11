@@ -85,6 +85,7 @@ html, body {
 #content {
 	float: left;
 	margin: 0 auto 50px;
+	/*min-height: 660px;*/
 	position: relative;
 	z-index: 100;
 	width: 960px;
@@ -93,6 +94,10 @@ html, body {
 	-moz-border-radius: 15px;
 	-webkit-border-radius: 15px;
 	box-shadow: 10px 10px 50px #011E31;
+}
+
+#content > div {
+	min-height: 560px;
 }
 
 #shareTab {
@@ -541,10 +546,6 @@ table td {
 
 
 /* List */
-#content #list {
-	min-height: 460px;
-}
-
 #list > ul {
 	float: left;
 	width: 405px;
@@ -584,10 +585,6 @@ table td {
 
 /* NTAKK */
 /* List */
-#content #NTAKK {
-	min-height: 460px;
-}
-
 #NTAKKList {
 	float: left;
 	width: 860px;
