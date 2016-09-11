@@ -254,6 +254,7 @@
 			case 'sitting': $title .= ' | ' . getSittingHeader(SITTING_ID); break;
 			case 'sitting-list': $title .= ' | Seimo posėdžių sąrašas'; break;
 			case 'voting': $title .= ' | Balsavimo statistika'; break;
+			case 'NTAKK': $title .= ' | NTAKK statistika'; break;
 		}
 	
 		return $title;
