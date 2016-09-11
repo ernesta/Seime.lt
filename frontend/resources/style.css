@@ -48,7 +48,7 @@ header, nav, article, aside, footer, hgroup, section {
 }
 
 body:before {
-	content: "";
+	content: " ";
 	height: 100%;
 	float: left;
 	width: 0;
@@ -60,7 +60,7 @@ body:before {
 /* Layout */
 html, body {
 	height: 100%;
-	background: url(images/bcg.png) repeat #07588D;
+	background: url("images/bcg.png") repeat #07588D;
 	color: #02385C;
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 13px;
@@ -85,7 +85,6 @@ html, body {
 #content {
 	float: left;
 	margin: 0 auto 50px;
-	/*min-height: 660px;*/
 	position: relative;
 	z-index: 100;
 	width: 960px;
@@ -107,7 +106,7 @@ html, body {
 	height: 100px;
 	margin: 70px 5px 0 -5px;
 	padding-top: 12px;
-	background: url('images/navigation/sprite.png') no-repeat 0 -201px;
+	background: url("images/navigation/sprite.png") no-repeat 0 -201px;
 }
 
 #push {
@@ -168,6 +167,28 @@ acronym {
 	font-size: 11px;
 }
 
+@font-face {
+	font-family: "Glyphicons Halflings";
+	src: url("fonts/glyphicons/glyphicons-halflings-regular.eot");
+	src: url("fonts/glyphicons/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("fonts/glyphicons/glyphicons-halflings-regular.woff2") format("woff2"), url("fonts/glyphicons/glyphicons-halflings-regular.woff") format("woff"), url("fonts/glyphicons/glyphicons-halflings-regular.ttf") format("truetype"), url("fonts/glyphicons/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+}
+
+.glyphicon {
+	position: relative;
+	display: inline-block;
+	font-family: "Glyphicons Halflings";
+	font-style: normal;
+	font-weight: lighter;
+	line-height: 1;
+	font-size: 8px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.glyphicon-sort:before {
+	content: "\e150";
+}
+
 
 
 /* Header */
@@ -183,7 +204,7 @@ header a.nav {
 	height: 30px;
 	line-height: 30px;
 	margin: 20px 20px 0 0;
-	background: url(images/navigation/sprite.png) no-repeat 0 -313px;
+	background: url("images/navigation/sprite.png") no-repeat 0 -313px;
 	color: #A2C9E3;
 	font-family: "Gill Sans", Calibri, "Trebuchet MS", sans-serif;
 	font-size: 13px;
@@ -193,7 +214,7 @@ header a.nav {
 
 header a#question {
 	width: 30px;
-	background: url(images/navigation/sprite.png) no-repeat 0 -344px;
+	background: url("images/navigation/sprite.png") no-repeat 0 -344px;
 	font-family: Verdana, sans-serif;
 }
 
@@ -204,7 +225,7 @@ header a#logo {
 	height: 48px;
 	margin: 20px 0 0 20px;
 	padding-bottom: 20px;
-	background: url('images/logotype.png') no-repeat;
+	background: url("images/logotype.png") no-repeat;
 }
 
 #contact  {
@@ -260,7 +281,7 @@ header a#logo {
 
 /* Share */
 #shareTab:hover {
-	background: url('images/navigation/sprite.png') no-repeat 0 -90px;
+	background: url("images/navigation/sprite.png") no-repeat 0 -90px;
 }
 
 #shareTab img {
@@ -274,7 +295,7 @@ header a#logo {
 
 /* Footer */
 footer {
-	background: url(images/navigation/footer.png) repeat;
+	background: url("images/navigation/footer.png") repeat;
 	color: #A2C9E3;
 	clear: both;
 }
@@ -284,7 +305,7 @@ footer ul {
 	height: 230px;
 	margin: 0 auto;
 	padding: 0 10px;
-	background: url(images/navigation/footer.png) repeat;
+	background: url("images/navigation/footer.png") repeat;
 }
 
 footer ul li {
@@ -566,7 +587,7 @@ table td {
 	float: left;
 	overflow: hidden;
 	width: 45px;
-	height: 45px;
+	height: 60px;
 	margin-right: 15px;
 }
 
@@ -597,26 +618,38 @@ table td {
 
 #NTAKKList div.member {
 	float: left;
-	width: 559px;
+	width: 468px;
 }
 
 #NTAKKList div.ratings {
 	float: right;
-	width: 299px;
+	width: 390px;
 }
 
 /* Header */
 #NTAKKList li.listHeader {
 	background: #DBECF8;
 	border: 1px #A2C9E3 solid;
-	height: 25px;
-	padding-top: 10px;
-	margin-bottom: 10px;
+	padding-top: 15px;
+	margin-bottom: 15px;
+}
+
+#NTAKKList .listHeader h3 {
+	cursor: pointer;
+}
+
+#NTAKKList .listHeader .member {
+	padding-top: 8px;
+}
+
+#NTAKKList .listHeader .ratings {
+	padding-bottom: 8px;
 }
 
 #NTAKKList .listHeader .ratings h3 {
 	float: left;
-	width: 99px;
+	width: 130px;
+	vertical-align: middle;
 }
 
 /* Content */
@@ -628,7 +661,7 @@ table td {
 	float: left;
 	overflow: hidden;
 	width: 45px;
-	height: 45px;
+	height: 60px;
 	margin-right: 15px;
 }
 
@@ -641,13 +674,9 @@ table td {
 	font-weight: bold;
 }
 
-#NTAKKList .listMember div.ratings {
-	margin-top: -5px;
-}
-
 #NTAKKList .listMember .ratings span {
 	float: left;
-	width: 99px;
+	width: 130px;
 	padding: 0;
 	color: #3E576F;
 	font-family: Tangerine, serif;

@@ -190,7 +190,12 @@
 				$f_class = $member['fraction'];
 			}
 						
-			$string .= '<li data-two=' . $member['alcohol_rating'] . ' data-one="' . $member['name'] . '" class="listMember clearfix ' . $f_class . '">';
+			$string .= '<li ';
+			$string .= 'data-one="' . $member['name'] . '" ';
+			$string .= 'data-two="' . $member['alcohol_rating'] . '" ';
+			$string .= 'data-three="' . $member['tobacco_rating'] . '" ';
+			$string .= 'data-four="' . $member['full_rating'] . '" ';
+			$string .= 'class="listMember clearfix ' . $f_class . '">';
 			$string .= '<div class=member>';
 			$string .= '<div class=listImg><img src="' . getThumb($member['id'])  . '" alt="' . $member['name'] . '" /></div>';
 			$string .= '<a href="' . getMemberLink($member['id'])  . '" class=listName>' . $member['name'] . '</a>';

@@ -12,6 +12,14 @@ $("#two").click(function() {
 	sortItems("two");
 });
 
+$("#three").click(function() {
+	sortItems("three");
+});
+
+$("#four").click(function() {
+	sortItems("four");
+});
+
 function sortItems(tag) {
 	var items = jQuery("#NTAKKList li").get();
 	var header = items.splice(0, 1);
