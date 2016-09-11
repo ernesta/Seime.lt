@@ -60,6 +60,25 @@ class IndividualSQLs {
 		$where = self::cw();
 		return self::getDB()->getArray(sprintf($sql, $where), array());
 	}
+
+	public static function getNTAKKList() {
+				$sql = 'SELECT DISTINCT name, members.id, image_src, fraction, cadency_end, 
+				ROUND(alcohol_rating,1) as "alcohol_rating", 
+				ROUND(tobacco_rating,1) as "tobacco_rating",
+				ROUND(full_rating,1) as "full_rating"
+				FROM members
+				JOIN NTAKK_materialized_scores
+					ON NTAKK_materialized_scores.members_id = members.id
+				JOIN sitting_participation
+					ON sitting_participation.members_id = members.id
+				JOIN sittings 
+					ON sittings_id = sittings.id
+				WHERE %s
+				ORDER BY full_rating DESC, name ASC';
+		$where = self::cw();
+		return self::getDB()->getArray(sprintf($sql, $where), array());
+	}
+
 	
 	public static function getFractions() {
 		$sql = 'SELECT DISTINCT fraction 
