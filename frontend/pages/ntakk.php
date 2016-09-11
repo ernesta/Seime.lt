@@ -1,9 +1,9 @@
 <div class="clearfix" id="NTAKK">
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	
+	<p>Šiame puslapyje pateikiami Seimo narių įvertinimai alkoholio ir tabako kontrolės srityje. Šie įvertinimai yra ruošiami Nacionalinės Alkoholio ir Tabako Kontrolės Koalicijos (NTAKK).  Išsamią jų vertinimų metodologiją rasi <a href='http://www.ntakk.lt/politiku-reitingai-2012-2016/'>NTAKK svetainėje</a>. Labiausiai už kontrolę pasisakę (t.y. atitinkamai balsavę) Seimo nariai gauna aukščiausius įvertinimus; balsavę priešingai - mažiausius (juos gali lengvai pamatyti rūšiuodamas lentelę žemiau).</p>
 	<br />
-	
-	<p>Sed ut <a href="http://">perspiciatis</a> unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+	<p>NTAKK skelbiamus įvertinimus skelbiame Seime.lt ne todėl, kad manome, jog už alkoholio ar tabako kontrolę balsuoti yra geriau nei atvirkščiai. Tai darome todėl, kad NTAKK renkami duomenys yra unikalūs ir suteikiantys įžvalgų visiems, kad ir kokios yra jų pažiūros šiais klausimais.</p>
+<br />
+<p>Seime.lt pateikiami įvertinimai šiek tiek skiriasi nuo NTAKK skelbiamų rezultatų. Pirma, dėl techninių priežasčių, Seime.lt svetainėje nėra skaičiuojami alternatyvūs balsavimai (tokie balsavimai sudaro apie 5% visų vertintų balsavimų). Antra, žemiau skelbiami įvertinimai normuojami atsižvelgiant į didžiausią/mažiausią teoriškai galimą įvertinimą (t.y. 10 balų reiškia, kad Seimo narys (-ė) visus kartus pasisakė už kontrolės išlaikymą ar padidinimą). NTAKK skelbiami vertinimai yra nuormuojami atsižvelgiant į kitų Seimo narių įvertinimus (t.y. 10 balų reiškia, kad Seimo narys (-ė) labiau nei visi kiti pasisakė už kontrolės išlaikymą ar padidinimą).</p>
 	
 	<br />
 	
@@ -22,6 +22,8 @@
 		
 		<?php echo getNTAKKList(); ?>
 	</ul>
+	<br />
+	<p><em>Paskutinis NTAKK vertintas posėdis vyko <?php echo getLastNTAKKUpdate(); ?>.</em></p>
 </div>
 
 <script type="text/javascript" src="frontend/resources/js/search.js"></script>

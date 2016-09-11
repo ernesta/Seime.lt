@@ -418,3 +418,14 @@
 			return $page;
 		}
 	}
+
+	function getLastNTAKKUpdate() {
+		global $DB;
+		return $DB->getVar('
+			SELECT DATE_FORMAT(MAX(sittings.end_time),"%Y-%m-%d") 
+			FROM `NTAKK` JOIN questions 
+				ON NTAKK.questions_id = questions.id 
+			JOIN sittings 
+				ON sittings.id = questions.sittings_id'
+		,array());
+	}
