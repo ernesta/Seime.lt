@@ -317,7 +317,7 @@
 	}
 
 	function getSittingLink($id) {
-		return 'http://seime.lt/posedziai/' . $id;
+		return 'posedziai/' . $id;
 	}
 
 	function getSittingHeader($id) {

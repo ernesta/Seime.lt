@@ -18,31 +18,31 @@
 			<ul class="tabnav">
 				<li id="tabAtt">
 					<a href="<?php echo Initialisator::getBaseURL() . cadencify('lankomumas'); ?>">
-						<img style="<?php if(PAGE_VIEW == 'attendance') echo 'z-index:10' ?>" src="frontend/resources/images/navigation/<?php if(PAGE_VIEW == 'attendance') echo 'tab-lank-dark.png'; else echo 'tab-lank.png'; ?>" alt="Lankomumo statistika" />
+						<img style="<?php if(PAGE_VIEW == 'attendance') echo 'z-index:10; margin-left:0px' ?>" src="frontend/resources/images/navigation/<?php if(PAGE_VIEW == 'attendance') echo 'tab-lank-dark.png'; else echo 'tab-lank.png'; ?>" alt="Lankomumo statistika" />
 					</a>
 				</li>
 
 				<li id="tabVote">
 					<a href="<?php echo Initialisator::getBaseURL() . cadencify('balsavimas'); ?>">
-						<img style="<?php if(PAGE_VIEW == 'voting') echo 'z-index:10' ?>" src="frontend/resources/images/navigation/<?php if(PAGE_VIEW == 'voting') echo 'tab-bals-dark.png'; else echo 'tab-bals.png'; ?>" alt="Balsavimo statistika" />
+						<img style="<?php if(PAGE_VIEW == 'voting') echo 'z-index:10; margin-left:0px' ?>" src="frontend/resources/images/navigation/<?php if(PAGE_VIEW == 'voting') echo 'tab-bals-dark.png'; else echo 'tab-bals.png'; ?>" alt="Balsavimo statistika" />
 					</a>
 				</li>
 
 				<li id="tabInd">
 					<a href="<?php echo Initialisator::getBaseURL() . cadencify('nariai'); ?>">
-						<img style="<?php if(PAGE_VIEW == 'individual') echo 'z-index:10' ?>" src="frontend/resources/images/navigation/<?php if(PAGE_VIEW == 'individual') echo 'tab-ind-dark.png'; else echo 'tab-ind.png'; ?>" alt="Individuali statistika" />
+						<img style="<?php if(PAGE_VIEW == 'list' || PAGE_VIEW == 'individual') echo 'z-index:10; margin-left:0px' ?>" src="frontend/resources/images/navigation/<?php if(PAGE_VIEW == 'list' || PAGE_VIEW == 'individual') echo 'tab-ind-dark.png'; else echo 'tab-ind.png'; ?>" alt="Individuali statistika" />
 					</a>
 				</li>
 
 				<li>
 					<a href="<?php echo Initialisator::getBaseURL(); ?>posedziai">
-						<img style="<?php if(PAGE_VIEW == 'sitting') echo 'z-index:10' ?>" src="frontend/resources/images/navigation/<?php if(PAGE_VIEW == 'sitting') echo 'tab-pos-dark.png'; else echo 'tab-pos.png'; ?>" alt="Posėdžių statistika" />
+						<img style="<?php if(PAGE_VIEW == 'sitting' || PAGE_VIEW == 'sittings-list') echo 'z-index:10; margin-left:0px' ?>" src="frontend/resources/images/navigation/<?php if(PAGE_VIEW == 'sitting' || PAGE_VIEW == 'sittings-list') echo 'tab-pos-dark.png'; else echo 'tab-pos.png'; ?>" alt="Posėdžių statistika" />
 					</a>
 				</li>
 				
 				<li>
 					<a href="<?php echo Initialisator::getBaseURL(); ?>NTAKK">
-						<img style="<?php if(PAGE_VIEW == 'NTAKK') echo 'z-index:10' ?>" src="frontend/resources/images/navigation/<?php if(PAGE_VIEW == 'NTAKK') echo 'tab-ntakk-dark.png'; else echo 'tab-ntakk.png'; ?>" alt="NTAKK statistika" />
+						<img style="<?php if(PAGE_VIEW == 'NTAKK') echo 'z-index:10; margin-left:0px' ?>" src="frontend/resources/images/navigation/<?php if(PAGE_VIEW == 'NTAKK') echo 'tab-ntakk-dark.png'; else echo 'tab-ntakk.png'; ?>" alt="NTAKK statistika" />
 					</a>
 				</li>
 			</ul>

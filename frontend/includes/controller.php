@@ -130,14 +130,6 @@
 			}
 		}
 		
-		// labs.php
-		elseif ($_GET['page'] == 'labs') {
-			define('PAGE_VIEW', 'labs');
-			$SeimeLT = new SeimeLT($DB, 'Sitting');
-			$SeimeLT->RegisterChart('SittingDynamics', array(500183, 'Series', 'Sitting', 'Members', 'Labels', 'Counts', 'CountLabels'));
-			$OBJECTS[] = $SeimeLT;
-		}
-		
 		// error.php
 		else define('PAGE_VIEW', 'error');		
 	}
