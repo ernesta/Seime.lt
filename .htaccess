@@ -1,7 +1,6 @@
 <IfModule mod_rewrite.c>
 	RewriteEngine On
-#need to indicate path relative to root of your webserver
-	RewriteBase /seime.lt.frontend/ 
+	RewriteBase /
 	RewriteCond %{REQUEST_FILENAME} !-f
 	RewriteCond %{REQUEST_FILENAME} !-d
 
