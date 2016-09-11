@@ -1,5 +1,5 @@
 <header class="clearfix">
-	<a id="logo" href="/" ></a>
+	<a id="logo" href="<?php echo Initialisator::getBaseURL(); ?>" ></a>
 
 	<a class="nav fancy" id="question" href="#explain">?</a>
 	<a class="nav fancy" href="#contact">DAUGIAU</a>

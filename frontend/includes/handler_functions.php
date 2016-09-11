@@ -17,31 +17,31 @@
 		?>
 			<ul class="tabnav">
 				<li id="tabAtt">
-					<a href="<?php echo cadencify('/lankomumas'); ?>">
+					<a href="<?php echo Initialisator::getBaseURL(); echo cadencify('lankomumas'); ?>">
 						<img style="<?php if($_GET['page'] == 'attendance') echo 'z-index:10' ?>" src="frontend/resources/images/navigation/<?php if($_GET['page'] == 'attendance') echo 'tab-lank-dark.png'; else echo 'tab-lank.png'; ?>" alt="Lankomumo statistika" />
 					</a>
 				</li>
 
 				<li id="tabVote">
-					<a href="<?php echo cadencify('/balsavimas'); ?>">
+					<a href="<?php echo Initialisator::getBaseURL(); echo cadencify('balsavimas'); ?>">
 						<img style="<?php if($_GET['page'] == 'voting') echo 'z-index:10' ?>" src="frontend/resources/images/navigation/<?php if($_GET['page'] == 'voting') echo 'tab-bals-dark.png'; else echo 'tab-bals.png'; ?>" alt="Balsavimo statistika" />
 					</a>
 				</li>
 
 				<li id="tabInd">
-					<a href="<?php echo cadencify('/nariai'); ?>">
+					<a href="<?php echo Initialisator::getBaseURL(); echo cadencify('nariai'); ?>">
 						<img style="<?php if($_GET['page'] == 'individual') echo 'z-index:10' ?>" src="frontend/resources/images/navigation/<?php if($_GET['page'] == 'individual') echo 'tab-ind-dark.png'; else echo 'tab-ind.png'; ?>" alt="Individuali statistika" />
 					</a>
 				</li>
 
 				<li>
-					<a href="/posedziai">
+					<a href="<?php echo Initialisator::getBaseURL(); ?>posedziai">
 						<img style="<?php if($_GET['page'] == 'sitting') echo 'z-index:10' ?>" src="frontend/resources/images/navigation/<?php if($_GET['page'] == 'sitting') echo 'tab-pos-dark.png'; else echo 'tab-pos.png'; ?>" alt="Posėdžių statistika" />
 					</a>
 				</li>
 				
 				<li>
-					<a href="/NTAKK">
+					<a href="<?php echo Initialisator::getBaseURL(); ?>NTAKK">
 						<img style="<?php if($_GET['page'] == 'NTAKK') echo 'z-index:10' ?>" src="frontend/resources/images/navigation/<?php if($_GET['page'] == 'NTAKK') echo 'tab-ntakk-dark.png'; else echo 'tab-ntakk.png'; ?>" alt="Posėdžių statistika" />
 					</a>
 				</li>

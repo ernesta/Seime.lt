@@ -4,21 +4,21 @@
 	</p>
 	<div id="attLinkCont">
 		<div id="attLink"></div>
-		<a href="/lankomumas" class="overlay">Lankomumo statistika</a>
+		<a href="<?php echo Initialisator::getBaseURL(); echo cadencify('lankomumas') ?>" class="overlay">Lankomumo statistika</a>
 	</div>
 
 	<div id="voteLinkCont">
 		<div id="voteLink"></div>
-		<a href="/balsavimas" class="overlay">Balsavimo statistika</a>
+		<a href="<?php echo Initialisator::getBaseURL(); echo cadencify('balsavimas') ?>" class="overlay">Balsavimo statistika</a>
 	</div>
 
 	<div id="indLinkCont">
 		<div id="indLink"></div>
-		<a href="/nariai" class="overlay">Individuali statistika</a>
+		<a href="<?php echo Initialisator::getBaseURL(); echo cadencify('nariai') ?>" class="overlay">Individuali statistika</a>
 	</div>
 
 	<div id="sitLinkCont">
 		<div id="sitLink"></div>
-		<a href="/posedziai" class="overlay">Detali posėdžių statistika</a>
+		<a href="<?php echo Initialisator::getBaseURL(); ?>posedziai" class="overlay">Detali posėdžių statistika</a>
 	</div>
 </div>
