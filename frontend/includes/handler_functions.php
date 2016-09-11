@@ -126,6 +126,7 @@
 			case 'TTF': return 'Frakcija "Tvarka ir teisingumas"';
 			case 'VLF': return 'Valstiečių liaudininkų frakcija';
 			case 'VNDF': return 'Valstiečių ir Naujosios demokratijos partijų frakcija';
+			case 'LLRA-K&Sca': return 'Lietuvos lenkų rinkimų akcijos-Krikščioniškų šeimų sąjungos frakcija';
 			default: return $fraction;
 		}
 	}

@@ -8,6 +8,7 @@ settings/settings.ini
 frontend/content/people/full/*.jpg
 frontend/content/people/thumbs/*.jpg
 frontend/content/sitting-dynamics/*.png
+.htaccess
 
 # OS stuff
 .DS_Store
