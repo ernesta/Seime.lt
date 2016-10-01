@@ -41,11 +41,9 @@
 				</li>
 				
 				<li>
-<!--
 					<a href="<?php echo Initialisator::getBaseURL(); ?>NTAKK">
 						<img style="<?php if(PAGE_VIEW == 'NTAKK') echo 'z-index:10; margin-left:0px' ?>" src="frontend/resources/images/navigation/<?php if(PAGE_VIEW == 'NTAKK') echo 'tab-ntakk-dark.png'; else echo 'tab-ntakk.png'; ?>" alt="NTAKK statistika" />
 					</a>
--->
 				</li>
 			</ul>
 		<?php
