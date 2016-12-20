@@ -3,7 +3,12 @@
 	<br />
 	<p>NTAKK skelbiamus įvertinimus skelbiame Seime.lt ne todėl, kad manome, jog už alkoholio ar tabako kontrolę balsuoti yra geriau nei atvirkščiai. Tai darome todėl, kad NTAKK renkami duomenys yra unikalūs ir suteikiantys įžvalgų visiems, kad ir kokios yra jų pažiūros šiais klausimais.</p>
 <br />
-<p>Seime.lt pateikiami įvertinimai šiek tiek skiriasi nuo NTAKK skelbiamų rezultatų. Pirma, dėl techninių priežasčių, Seime.lt svetainėje nėra skaičiuojami alternatyvūs balsavimai (tokie balsavimai sudaro apie 5% visų vertintų balsavimų). Antra, žemiau skelbiami įvertinimai normuojami atsižvelgiant į didžiausią/mažiausią teoriškai galimą įvertinimą (t.y. 10 balų reiškia, kad Seimo narys (-ė) visus kartus pasisakė už kontrolės išlaikymą ar padidinimą). NTAKK skelbiami vertinimai yra nuormuojami atsižvelgiant į kitų Seimo narių įvertinimus (t.y. 10 balų reiškia, kad Seimo narys (-ė) labiau nei visi kiti pasisakė už kontrolės išlaikymą ar padidinimą).</p>
+<!--
+<p>Seime.lt pateikiami įvertinimai šiek tiek skiriasi nuo NTAKK skelbiamų rezultatų. Pirma, dėl techninių priežasčių, Seime.lt svetainėje nėra skaičiuojami alternatyvūs balsavimai (tokie balsavimai sudaro apie 5% visų vertintų balsavimų). Antra, žemiau skelbiami įvertinimai normuojami atsižvelgiant į didžiausią/mažiausią teoriškai galimą įvertinimą (t.y. 10 balų reiškia, kad Seimo narys (-ė) visus kartus pasisakė už kontrolės išlaikymą ar padidinimą). NTAKK skelbiami vertinimai yra nuormuojami atsižvelgiant į kitų Seimo narių įvertinimus (t.y. 10 balų reiškia, kad Seimo narys (-ė) labiau nei visi kiti pasisakė už kontrolės išlaikymą ar padidinimą).</p> 
+-->
+<p>Seime.lt pateikiami įvertinimai šiek tiek skiriasi nuo NTAKK skelbiamų rezultatų, nes dėl techninių priežasčių Seime.lt svetainėje nėra skaičiuojami alternatyvūs balsavimai (tokie balsavimai sudaro apie 5% visų vertintų balsavimų). </p> 
+
+
 	
 	<br />
 	
