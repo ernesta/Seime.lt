@@ -1,0 +1,1324 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="Seime1.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3755">
+      <stop
+         style="stop-color:#02385c;stop-opacity:1;"
+         offset="0"
+         id="stop3757" />
+      <stop
+         style="stop-color:#07588d;stop-opacity:1;"
+         offset="1"
+         id="stop3759" />
+    </linearGradient>
+    <filter
+       id="filter4117"
+       inkscape:label="Evanescent"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Blur the contents of objects, preserving the outline and adding progressive transparency at edges"
+       color-interpolation-filters="sRGB">
+      <feMorphology
+         id="feMorphology4119"
+         radius="4"
+         in="SourceGraphic"
+         result="result0" />
+      <feGaussianBlur
+         id="feGaussianBlur4121"
+         in="result0"
+         stdDeviation="8"
+         result="result91" />
+      <feComposite
+         id="feComposite4123"
+         in2="result91"
+         operator="in"
+         in="SourceGraphic"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix4125" />
+      <feGaussianBlur
+         id="feGaussianBlur4127"
+         result="result6"
+         stdDeviation="3"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix4129"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 "
+         result="result7"
+         in="fbSourceGraphic" />
+      <feComposite
+         id="feComposite4131"
+         in2="result7"
+         operator="in"
+         in="result6" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.87705101"
+     inkscape:cx="-845.17668"
+     inkscape:cy="307.54423"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="756"
+     inkscape:window-x="-3"
+     inkscape:window-y="1"
+     inkscape:window-maximized="0"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-midpoints="true" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect3126"
+       width="300"
+       height="170"
+       x="-1157.035"
+       y="698.15271"
+       inkscape:export-filename="/Users/ernesta/Projects/Poko Labs/Seime/# Side Files/text3229.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g3265"
+       transform="translate(-224.87056,500.73064)"
+       inkscape:export-filename="/Users/ernesta/Dropbox/# Projects/Seime.lt/Images/path3875.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/Users/ernesta/Projects/Poko Labs/Seime/# Side Files/text3808.png"
+         id="rect3791"
+         d="m 225.89063,542.36148 c 0,4.56773 3.65102,8.25 8.21875,8.25 l 5.40625,0 16.0625,0 8.25,0 0,-8.25 0,-101.46875 0,-8.25 -8.25,0 -16.0625,0 -5.40625,0 c -4.56773,0 -8.21875,3.68227 -8.21875,8.25 l 0,101.46875 z"
+         style="opacity:0.65;fill:#c75233;fill-opacity:1;stroke:#c75233;stroke-width:2.04013133;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/Users/ernesta/Projects/Poko Labs/Seime/# Side Files/text3808.png"
+         transform="matrix(0,-1,1,0,0,0)"
+         sodipodi:linespacing="125%"
+         id="text3804"
+         y="241.54367"
+         x="-534.17224"
+         style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+         xml:space="preserve"><tspan
+           style="font-size:13px;fill:#ffffff"
+           y="241.54367"
+           x="-534.17224"
+           id="tspan3806"
+           sodipodi:role="line">LANKOMUMO</tspan></text>
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         transform="matrix(0,-1,1,0,0,0)"
+         xml:space="preserve"
+         style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+         x="-525.83008"
+         y="257.06778"
+         id="text3808"
+         sodipodi:linespacing="125%"><tspan
+           style="font-size:13px;fill:#ffffff"
+           sodipodi:role="line"
+           id="tspan3810"
+           x="-525.83008"
+           y="257.06778">STATISTIKA</tspan></text>
+    </g>
+    <g
+       id="g3272"
+       transform="matrix(1.000003,0,0,1,-295.29577,279.71876)"
+       inkscape:export-filename="/Users/ernesta/Dropbox/# Projects/Seime.lt/Images/path3875.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         id="rect3789"
+         d="m 296.31496,521.37336 c 0,4.56773 3.68227,8.25 8.25,8.25 l 6.09375,0 15.375,0 8.25,0 0,-8.25 0,-101.46875 0,-8.25 -8.25,0 -15.375,0 -6.09375,0 c -4.56773,0 -8.25,3.68227 -8.25,8.25 l 0,101.46875 z"
+         style="opacity:0.65;fill:#c78933;fill-opacity:1;stroke:#c78933;stroke-width:2.04013133;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <text
+         transform="matrix(0,-1,1,0,0,0)"
+         sodipodi:linespacing="125%"
+         id="text3812"
+         y="311.99796"
+         x="-508.03458"
+         style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+         xml:space="preserve"><tspan
+           style="font-size:13px;fill:#ffffff"
+           y="311.99796"
+           x="-508.03458"
+           id="tspan3814"
+           sodipodi:role="line">INDIVIDUALI</tspan></text>
+      <text
+         transform="matrix(0,-1,1,0,0,0)"
+         sodipodi:linespacing="125%"
+         id="text3816"
+         y="327.52206"
+         x="-504.84171"
+         style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+         xml:space="preserve"><tspan
+           style="font-size:13px;fill:#ffffff"
+           y="327.52206"
+           x="-504.84171"
+           id="tspan3818"
+           sodipodi:role="line">STATISTIKA</tspan></text>
+    </g>
+    <rect
+       transform="scale(1,-1)"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       ry="3.9951298"
+       y="-391.00235"
+       x="266.09665"
+       height="23.334785"
+       width="143.23738"
+       id="rect2999"
+       style="opacity:0.6;fill:#5e2f46;fill-opacity:1;stroke:#5e2f46;stroke-width:1.76261985;stroke-opacity:1"
+       inkscape:export-filename="/Users/ernesta/Projects/Poko Labs/Seime/# Side Files/text3773.png" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3773"
+       y="384.84851"
+       x="292.50439"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+       xml:space="preserve"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-size:16px;fill:#ffffff"
+         y="384.84851"
+         x="292.50439"
+         id="tspan3775"
+         sodipodi:role="line">BALSAVIMAS</tspan></text>
+    <rect
+       style="opacity:0.6;fill:#5e2f46;fill-opacity:1;stroke:#5e2f46;stroke-width:1.76261997;stroke-opacity:1"
+       id="rect3809"
+       width="143.23738"
+       height="23.334785"
+       x="277.50586"
+       y="-353.64587"
+       ry="3.9951298"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="scale(1,-1)"
+       inkscape:export-filename="/Users/ernesta/Projects/Poko Labs/Seime/# Side Files/text3811.png" />
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+       x="294.24173"
+       y="347.45135"
+       id="text3811"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3813"
+         x="294.24173"
+         y="347.45135"
+         style="font-size:16px;fill:#ffffff">LANKOMUMAS</tspan></text>
+    <rect
+       transform="scale(1,-1)"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       ry="3.9951298"
+       y="-311.09979"
+       x="266.09665"
+       height="23.334785"
+       width="143.23738"
+       id="rect3815"
+       style="opacity:0.6;fill:#5e2f46;fill-opacity:1;stroke:#5e2f46;stroke-width:1.76261997;stroke-opacity:1"
+       inkscape:export-filename="/Users/ernesta/Projects/Poko Labs/Seime/# Side Files/text3817.png" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3817"
+       y="304.85635"
+       x="297.23096"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+       xml:space="preserve"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-size:16px;fill:#ffffff"
+         y="304.85635"
+         x="297.23096"
+         id="tspan3819"
+         sodipodi:role="line">SEIMO TOP</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+       x="273.84402"
+       y="263.77271"
+       id="text3823"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3825"
+         x="273.84402"
+         y="263.77271"
+         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;font-family:Verdana;-inkscape-font-specification:Verdana" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Helvetica"
+       x="237.45319"
+       y="254.23483"
+       id="text3829"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3831"
+         x="237.45319"
+         y="254.23483" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+       x="272.28464"
+       y="261.72549"
+       id="text3839"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3841"
+         x="272.28464"
+         y="261.72549" /></text>
+    <rect
+       ry="5"
+       y="-379.07458"
+       x="-1290.3319"
+       height="48.846752"
+       width="398.84674"
+       id="rect3211"
+       style="fill:#dda300;fill-opacity:1;stroke:#dda300;stroke-width:2;opacity:0.6"
+       inkscape:export-filename="/Users/ernesta/Projects/Poko Labs/Seime/# Side Files/g4137.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       id="path4040"
+       d="m -1442.7535,-265.26564 c 0,4.56773 3.6511,8.25 8.2188,8.25 l 5.4062,0 16.0625,0 8.25,0 0,-8.25 0,-101.46875 0,-8.25 -8.25,0 -16.0625,0 -5.4062,0 c -4.5677,0 -8.2188,3.68227 -8.2188,8.25 l 0,101.46875 z"
+       style="opacity:0.6;fill:#dd3800;fill-opacity:1;stroke:#dd3800;stroke-width:2.04013133;stroke-opacity:1"
+       inkscape:connector-curvature="0" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4042"
+       y="-1427.1005"
+       x="290.38538"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+       xml:space="preserve"
+       transform="matrix(0,-1,1,0,0,0)"><tspan
+         style="font-size:13px;fill:#ffffff"
+         y="-1427.1005"
+         x="290.38538"
+         id="tspan4044"
+         sodipodi:role="line">BENDRA</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+       x="281.797"
+       y="-1411.5763"
+       id="text4046"
+       sodipodi:linespacing="125%"
+       transform="matrix(0,-1,1,0,0,0)"><tspan
+         style="font-size:13px;fill:#ffffff"
+         sodipodi:role="line"
+         id="tspan4048"
+         x="281.797"
+         y="-1411.5763">STATISTIKA</tspan></text>
+    <g
+       id="g4137"
+       transform="translate(-1.6623936,4.5710951)"
+       style="fill:#ffffff"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <text
+         xml:space="preserve"
+         style="font-size:6.21232462000000041px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+         x="-1268.3336"
+         y="-348.42023"
+         id="text3215"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3217"
+           x="-1268.3336"
+           y="-348.42023"
+           style="font-size:31.62638091999999901px;fill:#ffffff">INDIVIDUALI STATISTIKA</tspan></text>
+    </g>
+    <rect
+       style="fill:#dd3800;fill-opacity:1;stroke:#dd3800;stroke-width:2;opacity:0.59999999999999998"
+       id="rect4155"
+       width="398.84674"
+       height="48.846752"
+       x="-1290.3319"
+       y="-317.96347"
+       ry="5"
+       inkscape:export-filename="/Users/ernesta/Projects/Poko Labs/Seime/# Side Files/g4157.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       transform="translate(-1.6623936,65.682206)"
+       id="g4157"
+       style="fill:#ffffff"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <text
+         sodipodi:linespacing="125%"
+         id="text4159"
+         y="-348.42023"
+         x="-1238.4832"
+         style="font-size:6.21232462000000041px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+         xml:space="preserve"><tspan
+           style="font-size:31.62638091999999901px;fill:#ffffff"
+           y="-348.42023"
+           x="-1238.4832"
+           id="tspan4161"
+           sodipodi:role="line">BENDRA STATISTIKA</tspan></text>
+    </g>
+    <path
+       id="path4165"
+       d="m -1431.4628,-104.81712 c 0,4.56773 3.6822,8.250004 8.25,8.250004 l 6.0937,0 15.375,0 8.25,0 0,-8.250004 0,-101.46875 0,-8.25 -8.25,0 -15.375,0 -6.0937,0 c -4.5678,0 -8.25,3.68227 -8.25,8.25 l 0,101.46875 z"
+       style="opacity:0.6;fill:#dda300;fill-opacity:1;stroke:#dda300;stroke-width:2.04013133;stroke-opacity:1"
+       inkscape:connector-curvature="0" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4167"
+       y="-1415.7799"
+       x="118.15589"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+       xml:space="preserve"
+       transform="matrix(0,-1,1,0,0,0)"><tspan
+         style="font-size:13px;fill:#ffffff"
+         y="-1415.7799"
+         x="118.15589"
+         id="tspan4169"
+         sodipodi:role="line">INDIVIDUALI</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4171"
+       y="-1400.2557"
+       x="121.34876"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+       xml:space="preserve"
+       transform="matrix(0,-1,1,0,0,0)"><tspan
+         style="font-size:13px;fill:#ffffff"
+         y="-1400.2557"
+         x="121.34876"
+         id="tspan4173"
+         sodipodi:role="line">STATISTIKA</tspan></text>
+    <g
+       id="g3968"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         transform="translate(-4.8402673,-39.067871)"
+         id="g3911">
+        <path
+           inkscape:connector-curvature="0"
+           id="path3913"
+           d="m 445.89318,308.49663 -9.5,9.5 0,9.84375 c 0,2.2133 1.75545,4 3.96875,4 l 135.25,0 c 2.2133,0 4,-1.7867 4,-4 l 0,-15.34375 c 0,-2.2133 -1.7867,-4 -4,-4 l -129.71875,0 z"
+           style="opacity:0.6;fill:#5e2f46;fill-opacity:1;stroke:#5e2f46;stroke-width:1.76261997;stroke-opacity:1" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path3915"
+           d="m 441.75987,316.72255 c 1.80547,0 3.23745,-1.40096 3.23745,-3.13642 l 0,-4.31257 -7.74948,7.44899 4.51203,0 z"
+           style="opacity:0.6;fill:#5e2f46;fill-opacity:1;stroke:#5e2f46;stroke-width:1.40967906;stroke-opacity:1" />
+      </g>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3936"
+         y="286.5733"
+         x="462.67792"
+         style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+         xml:space="preserve"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"><tspan
+           style="font-size:16px;fill:#ffffff"
+           y="286.5733"
+           x="462.67792"
+           id="tspan3938"
+           sodipodi:role="line">SEIMO TOP</tspan></text>
+    </g>
+    <g
+       id="g3975"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         id="g3907">
+        <path
+           style="opacity:0.6;fill:#5e2f46;fill-opacity:1;stroke:#5e2f46;stroke-width:1.76261997;stroke-opacity:1"
+           d="m 445.89318,308.49663 -9.5,9.5 0,9.84375 c 0,2.2133 1.75545,4 3.96875,4 l 135.25,0 c 2.2133,0 4,-1.7867 4,-4 l 0,-15.34375 c 0,-2.2133 -1.7867,-4 -4,-4 l -129.71875,0 z"
+           id="rect3890"
+           inkscape:connector-curvature="0" />
+        <path
+           style="opacity:0.6;fill:#5e2f46;fill-opacity:1;stroke:#5e2f46;stroke-width:1.40967906;stroke-opacity:1"
+           d="m 441.75987,316.72255 c 1.80547,0 3.23745,-1.40096 3.23745,-3.13642 l 0,-4.31257 -7.74948,7.44899 4.51203,0 z"
+           id="rect3861"
+           inkscape:connector-curvature="0" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+         x="453.11975"
+         y="325.64117"
+         id="text3957"
+         sodipodi:linespacing="125%"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"><tspan
+           sodipodi:role="line"
+           id="tspan3959"
+           x="453.11975"
+           y="325.64117"
+           style="font-size:16px;fill:#ffffff">LANKOMUMAS</tspan></text>
+    </g>
+    <g
+       id="g3982"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         transform="translate(1.0372001,33.536137)"
+         id="g3917">
+        <path
+           style="opacity:0.6;fill:#5e2f46;fill-opacity:1;stroke:#5e2f46;stroke-width:1.76261997;stroke-opacity:1"
+           d="m 445.89318,308.49663 -9.5,9.5 0,9.84375 c 0,2.2133 1.75545,4 3.96875,4 l 135.25,0 c 2.2133,0 4,-1.7867 4,-4 l 0,-15.34375 c 0,-2.2133 -1.7867,-4 -4,-4 l -129.71875,0 z"
+           id="path3919"
+           inkscape:connector-curvature="0" />
+        <path
+           style="opacity:0.6;fill:#5e2f46;fill-opacity:1;stroke:#5e2f46;stroke-width:1.40967906;stroke-opacity:1"
+           d="m 441.75987,316.72255 c 1.80547,0 3.23745,-1.40096 3.23745,-3.13642 l 0,-4.31257 -7.74948,7.44899 4.51203,0 z"
+           id="path3921"
+           inkscape:connector-curvature="0" />
+      </g>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3964"
+         y="359.16949"
+         x="463.82883"
+         style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+         xml:space="preserve"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"><tspan
+           style="font-size:16px;fill:#ffffff"
+           y="359.16949"
+           x="463.82883"
+           id="tspan3966"
+           sodipodi:role="line">BALSAVIMAS</tspan></text>
+    </g>
+    <rect
+       style="fill:none;stroke:none"
+       id="rect3030"
+       width="136.88013"
+       height="136.88013"
+       x="-537.67932"
+       y="577.72217" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#07588d;fill-opacity:1;stroke:#042f4b;stroke-width:4.68280697;stroke-opacity:1"
+       d="m -516.54963,586.99632 0,69.24619 0,0.12414 c 0.0647,27.06009 21.2077,48.96145 47.29796,48.96145 26.09027,0 47.25807,-21.90134 47.32278,-48.96145 1e-4,-0.0415 0,-0.0826 0,-0.12414 l 0,-69.24619 -94.62074,0 z"
+       id="path3016" />
+    <g
+       id="g4005"
+       transform="matrix(0.79450634,0,0,0.79450634,-490.05162,182.14568)">
+      <text
+         transform="matrix(0.99623855,-0.08665307,0.08665307,0.99623855,0,0)"
+         sodipodi:linespacing="125%"
+         id="text3824"
+         y="620.79108"
+         x="-62.256729"
+         style="font-size:10.06784058px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+         xml:space="preserve"><tspan
+           style="font-size:131.79719543px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#a2c9e3;fill-opacity:1;font-family:Tangerine;-inkscape-font-specification:Tangerine Bold"
+           y="620.79108"
+           x="-62.256729"
+           id="tspan3826"
+           sodipodi:role="line">S</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:10.06784058px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+         x="-63.256042"
+         y="620.70416"
+         id="text3989"
+         sodipodi:linespacing="125%"
+         transform="matrix(0.99623855,-0.08665307,0.08665307,0.99623855,0,0)"><tspan
+           sodipodi:role="line"
+           id="tspan3991"
+           x="-63.256042"
+           y="620.70416"
+           style="font-size:131.79719543px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#a2c9e3;fill-opacity:1;font-family:Tangerine;-inkscape-font-specification:Tangerine Bold">S</tspan></text>
+      <text
+         transform="matrix(0.99623855,-0.08665307,0.08665307,0.99623855,0,0)"
+         sodipodi:linespacing="125%"
+         id="text3993"
+         y="620.59155"
+         x="-64.551155"
+         style="font-size:10.06784058px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+         xml:space="preserve"><tspan
+           style="font-size:131.79719543px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#a2c9e3;fill-opacity:1;font-family:Tangerine;-inkscape-font-specification:Tangerine Bold"
+           y="620.59155"
+           x="-64.551155"
+           id="tspan3995"
+           sodipodi:role="line">S</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:10.06784058px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+         x="-65.945892"
+         y="620.47028"
+         id="text3997"
+         sodipodi:linespacing="125%"
+         transform="matrix(0.99623855,-0.08665307,0.08665307,0.99623855,0,0)"><tspan
+           sodipodi:role="line"
+           id="tspan3999"
+           x="-65.945892"
+           y="620.47028"
+           style="font-size:131.79719543px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#a2c9e3;fill-opacity:1;font-family:Tangerine;-inkscape-font-specification:Tangerine Bold">S</tspan></text>
+      <text
+         transform="matrix(0.99623855,-0.08665307,0.08665307,0.99623855,0,0)"
+         sodipodi:linespacing="125%"
+         id="text4001"
+         y="620.34033"
+         x="-67.440254"
+         style="font-size:10.06784058px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+         xml:space="preserve"><tspan
+           style="font-size:131.79719543px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#a2c9e3;fill-opacity:1;font-family:Tangerine;-inkscape-font-specification:Tangerine Bold"
+           y="620.34033"
+           x="-67.440254"
+           id="tspan4003"
+           sodipodi:role="line">S</tspan></text>
+    </g>
+    <g
+       id="g3279"
+       transform="translate(-300.47841,-95.876793)"
+       inkscape:export-filename="/Users/ernesta/Dropbox/# Projects/Seime.lt/Images/path3875.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         id="path3092"
+         d="m 301.49848,654.96891 c 0,4.56773 3.65102,8.25 8.21875,8.25 l 5.40625,0 16.0625,0 8.25,0 0,-8.25 0,-101.46875 0,-8.25 -8.25,0 -16.0625,0 -5.40625,0 c -4.56773,0 -8.21875,3.68227 -8.21875,8.25 l 0,101.46875 z"
+         style="opacity:0.65;fill:#79b5ac;fill-opacity:1;stroke:#79b5ac;stroke-width:2.04013133;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <text
+         transform="matrix(0,-1,1,0,0,0)"
+         sodipodi:linespacing="125%"
+         id="text3094"
+         y="317.15152"
+         x="-638.92133"
+         style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+         xml:space="preserve"><tspan
+           style="font-size:13px;fill:#ffffff"
+           y="317.15152"
+           x="-638.92133"
+           id="tspan3096"
+           sodipodi:role="line">BALSAVIMO</tspan></text>
+      <text
+         transform="matrix(0,-1,1,0,0,0)"
+         xml:space="preserve"
+         style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+         x="-638.43756"
+         y="332.67563"
+         id="text3098"
+         sodipodi:linespacing="125%"><tspan
+           style="font-size:13px;fill:#ffffff"
+           sodipodi:role="line"
+           id="tspan3100"
+           x="-638.43756"
+           y="332.67563">STATISTIKA</tspan></text>
+    </g>
+    <g
+       id="g3286"
+       transform="translate(-389.4919,395.28119)"
+       inkscape:export-filename="/Users/ernesta/Dropbox/# Projects/Seime.lt/Images/path3875.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         inkscape:connector-curvature="0"
+         style="opacity:0.8;fill:#c75233;fill-opacity:1;stroke:#c75233;stroke-width:2.04013133;stroke-opacity:1"
+         d="m 390.51197,526.81093 c 0,4.56773 3.65102,8.25 8.21875,8.25 l 5.40625,0 16.0625,0 8.25,0 0,-8.25 0,-101.46875 0,-8.25 -8.25,0 -16.0625,0 -5.40625,0 c -4.56773,0 -8.21875,3.68227 -8.21875,8.25 l 0,101.46875 z"
+         id="path3901"
+         inkscape:export-filename="/Users/ernesta/Projects/Poko Labs/Seime/# Side Files/text3808.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <text
+         xml:space="preserve"
+         style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+         x="-518.6217"
+         y="406.16501"
+         id="text3903"
+         sodipodi:linespacing="125%"
+         transform="matrix(0,-1,1,0,0,0)"
+         inkscape:export-filename="/Users/ernesta/Projects/Poko Labs/Seime/# Side Files/text3808.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"><tspan
+           sodipodi:role="line"
+           id="tspan3905"
+           x="-518.6217"
+           y="406.16501"
+           style="font-size:13px;fill:#ffffff">LANKOMUMO</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3907"
+         y="421.68912"
+         x="-510.27954"
+         style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+         xml:space="preserve"
+         transform="matrix(0,-1,1,0,0,0)"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"><tspan
+           y="421.68912"
+           x="-510.27954"
+           id="tspan3909"
+           sodipodi:role="line"
+           style="font-size:13px;fill:#ffffff">STATISTIKA</tspan></text>
+    </g>
+    <g
+       id="g3300"
+       transform="matrix(1.000003,0,0,1,-459.91762,174.26931)"
+       inkscape:export-filename="/Users/ernesta/Dropbox/# Projects/Seime.lt/Images/path3875.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         inkscape:connector-curvature="0"
+         style="opacity:0.8;fill:#c78933;fill-opacity:1;stroke:#c78933;stroke-width:2.04013133;stroke-opacity:1"
+         d="m 460.9363,505.82281 c 0,4.56773 3.68227,8.25 8.25,8.25 l 6.09375,0 15.375,0 8.25,0 0,-8.25 0,-101.46875 0,-8.25 -8.25,0 -15.375,0 -6.09375,0 c -4.56773,0 -8.25,3.68227 -8.25,8.25 l 0,101.46875 z"
+         id="path3911"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <text
+         xml:space="preserve"
+         style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+         x="-492.48404"
+         y="476.61929"
+         id="text3913"
+         sodipodi:linespacing="125%"
+         transform="matrix(0,-1,1,0,0,0)"><tspan
+           sodipodi:role="line"
+           id="tspan3915"
+           x="-492.48404"
+           y="476.61929"
+           style="font-size:13px;fill:#ffffff">INDIVIDUALI</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+         x="-489.29117"
+         y="492.1434"
+         id="text3917"
+         sodipodi:linespacing="125%"
+         transform="matrix(0,-1,1,0,0,0)"><tspan
+           sodipodi:role="line"
+           id="tspan3919"
+           x="-489.29117"
+           y="492.1434"
+           style="font-size:13px;fill:#ffffff">STATISTIKA</tspan></text>
+    </g>
+    <g
+       id="g3293"
+       transform="matrix(1.0000092,0,0,1,-465.10404,-201.32624)"
+       inkscape:export-filename="/Users/ernesta/Dropbox/# Projects/Seime.lt/Images/path3875.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         inkscape:connector-curvature="0"
+         style="opacity:0.8;fill:#79b5ac;fill-opacity:1;stroke:#79b5ac;stroke-width:2.04013133;stroke-opacity:1"
+         d="m 466.11982,639.41836 c 0,4.56773 3.65102,8.25 8.21875,8.25 l 5.40625,0 16.0625,0 8.25,0 0,-8.25 0,-101.46875 0,-8.25 -8.25,0 -16.0625,0 -5.40625,0 c -4.56773,0 -8.21875,3.68227 -8.21875,8.25 l 0,101.46875 z"
+         id="path3922"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <text
+         xml:space="preserve"
+         style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+         x="-623.37079"
+         y="481.77286"
+         id="text3924"
+         sodipodi:linespacing="125%"
+         transform="matrix(0,-1,1,0,0,0)"><tspan
+           sodipodi:role="line"
+           id="tspan3926"
+           x="-623.37079"
+           y="481.77286"
+           style="font-size:13px;fill:#ffffff">BALSAVIMO</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3928"
+         y="497.29697"
+         x="-622.88702"
+         style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+         xml:space="preserve"
+         transform="matrix(0,-1,1,0,0,0)"><tspan
+           y="497.29697"
+           x="-622.88702"
+           id="tspan3930"
+           sodipodi:role="line"
+           style="font-size:13px;fill:#ffffff">STATISTIKA</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#a2c9e3;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+       x="362.37341"
+       y="77.792854"
+       id="text3273"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3275"
+         x="362.37341"
+         y="77.792854"
+         style="font-size:64px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#a2c9e3;fill-opacity:1;font-family:Tangerine;-inkscape-font-specification:Tangerine">Seime.lt</tspan></text>
+    <g
+       id="g3953"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="matrix(0,-1,1,0,-233.67959,544.78166)">
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         id="path3118"
+         d="m 104.81666,370.2617 c -4.56773,0 -8.249999,3.65105 -8.249999,8.21883 l 0,5.4063 0,16.06264 0,8.25008 8.249999,0 101.46875,0 8.25,0 0,-8.25008 0,-16.06264 0,-5.4063 c 0,-4.56778 -3.68227,-8.21883 -8.25,-8.21883 l -101.46875,0 z"
+         style="opacity:0.8;fill:#5e2f46;fill-opacity:1;stroke:#5e2f46;stroke-width:2.04014063;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <g
+         id="g3924">
+        <text
+           xml:space="preserve"
+           style="font-size:11.00005054px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+           x="125.27962"
+           y="385.91312"
+           id="text3120"
+           sodipodi:linespacing="125%"
+           transform="scale(0.9999954,1.0000046)"><tspan
+             sodipodi:role="line"
+             id="tspan3122"
+             x="125.27962"
+             y="385.91312"
+             style="font-size:13.00006008px;fill:#ffffff">POSEDZIU</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text3124"
+           y="401.43729"
+           x="121.35677"
+           style="font-size:11.00005054px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+           xml:space="preserve"
+           transform="scale(0.9999954,1.0000046)"><tspan
+             y="401.43729"
+             x="121.35677"
+             id="tspan3126"
+             sodipodi:role="line"
+             style="font-size:13.00006008px;fill:#ffffff">STATISTIKA</tspan></text>
+        <path
+           style="font-size:21.91930389px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+           d="m 182.19437,387.97418 0.27725,-1.01801 c -0.0598,0.0202 -0.12997,0.0247 -0.18484,0.0247 -0.27429,0 -0.45472,-0.0418 -0.55447,-0.14897 -0.10473,-0.10722 -0.16635,-0.23647 -0.16635,-0.39728 0,-0.14069 0.0531,-0.2605 0.14787,-0.34761 0.15959,-0.14739 0.3811,-0.22346 0.66537,-0.22346 0.0648,0 0.2262,0.0229 0.48055,0.0496 l 0,-1.14215 c -0.13964,-0.0335 -0.29601,-0.0497 -0.48055,-0.0497 -0.6683,0 -1.1559,0.18445 -1.46013,0.54625 -0.30422,0.35511 -0.46206,0.78194 -0.46207,1.29114 1e-5,0.3149 0.0857,0.59631 0.24027,0.8442 0.14963,0.24789 0.35911,0.40949 0.62842,0.49659 l -0.0184,0.0744 0.88717,0 z"
+           id="text3908"
+           inkscape:connector-curvature="0" />
+        <text
+           transform="matrix(0,0.59075295,-1.692755,0,0,0)"
+           xml:space="preserve"
+           style="font-size:5.0297718px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+           x="633.12701"
+           y="-98.10936"
+           id="text3912"
+           sodipodi:linespacing="125%"><tspan
+             style="font-size:5.94427586px;font-weight:bold;fill:#ffffff"
+             sodipodi:role="line"
+             id="tspan3914"
+             x="633.12701"
+             y="-98.10936">&gt;</tspan></text>
+        <rect
+           style="fill:#ffffff;fill-opacity:1;stroke:none"
+           id="rect3922"
+           width="1.2448138"
+           height="1.2448138"
+           x="151.466"
+           y="374.44519"
+           ry="0" />
+      </g>
+    </g>
+    <g
+       id="g3965"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="matrix(0,-1,1,0,-324.44287,692.25142)">
+      <path
+         inkscape:connector-curvature="0"
+         style="opacity:0.65;fill:#5e2f46;fill-opacity:1;stroke:#5e2f46;stroke-width:2.04013133;stroke-opacity:1"
+         d="m 109.81082,462.54442 c -4.56773,0 -8.25,3.65102 -8.25,8.21875 l 0,5.40625 0,16.0625 0,8.25 8.25,0 101.46876,0 8.25,0 0,-8.25 0,-16.0625 0,-5.40625 c 0,-4.56773 -3.68227,-8.21875 -8.25,-8.21875 l -101.46876,0 z"
+         id="path3106"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <g
+         transform="translate(4.9941593,93.62826)"
+         id="g3934">
+        <text
+           transform="scale(0.9999954,1.0000046)"
+           sodipodi:linespacing="125%"
+           id="text3937"
+           y="385.91312"
+           x="125.27962"
+           style="font-size:11.00005054px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+           xml:space="preserve"><tspan
+             style="font-size:13.00006008px;fill:#ffffff"
+             y="385.91312"
+             x="125.27962"
+             id="tspan3939"
+             sodipodi:role="line">POSEDZIU</tspan></text>
+        <text
+           transform="scale(0.9999954,1.0000046)"
+           xml:space="preserve"
+           style="font-size:11.00005054px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+           x="121.35677"
+           y="401.43729"
+           id="text3941"
+           sodipodi:linespacing="125%"><tspan
+             style="font-size:13.00006008px;fill:#ffffff"
+             sodipodi:role="line"
+             id="tspan3943"
+             x="121.35677"
+             y="401.43729">STATISTIKA</tspan></text>
+        <path
+           inkscape:connector-curvature="0"
+           id="path3945"
+           d="m 182.19437,387.97418 0.27725,-1.01801 c -0.0598,0.0202 -0.12997,0.0247 -0.18484,0.0247 -0.27429,0 -0.45472,-0.0418 -0.55447,-0.14897 -0.10473,-0.10722 -0.16635,-0.23647 -0.16635,-0.39728 0,-0.14069 0.0531,-0.2605 0.14787,-0.34761 0.15959,-0.14739 0.3811,-0.22346 0.66537,-0.22346 0.0648,0 0.2262,0.0229 0.48055,0.0496 l 0,-1.14215 c -0.13964,-0.0335 -0.29601,-0.0497 -0.48055,-0.0497 -0.6683,0 -1.1559,0.18445 -1.46013,0.54625 -0.30422,0.35511 -0.46206,0.78194 -0.46207,1.29114 1e-5,0.3149 0.0857,0.59631 0.24027,0.8442 0.14963,0.24789 0.35911,0.40949 0.62842,0.49659 l -0.0184,0.0744 0.88717,0 z"
+           style="font-size:21.91930389px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text3947"
+           y="-98.10936"
+           x="633.12701"
+           style="font-size:5.0297718px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+           xml:space="preserve"
+           transform="matrix(0,0.59075295,-1.692755,0,0,0)"><tspan
+             y="-98.10936"
+             x="633.12701"
+             id="tspan3949"
+             sodipodi:role="line"
+             style="font-size:5.94427586px;font-weight:bold;fill:#ffffff">&gt;</tspan></text>
+        <rect
+           ry="0"
+           y="374.44519"
+           x="151.466"
+           height="1.2448138"
+           width="1.2448138"
+           id="rect3951"
+           style="fill:#ffffff;fill-opacity:1;stroke:none" />
+      </g>
+    </g>
+    <g
+       transform="matrix(12.5,0,0,12.5,3659.5841,-7622.5361)"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       id="g3128">
+      <rect
+         style="fill:none;stroke:none"
+         id="rect3130"
+         width="64"
+         height="64"
+         x="-230.31735"
+         y="600.69293" />
+      <g
+         id="g3132"
+         transform="matrix(0.3714813,0,0,0.3714813,-209.01486,415.73624)">
+        <path
+           id="path3134"
+           d="m -30.75,509.5625 0,87.15625 0,0.15625 c 0.08148,34.05899 26.6929231,61.625 59.53125,61.625 32.838351,0 59.48106,-27.56598 59.5625,-61.625 1.25e-4,-0.0522 0,-0.10401 0,-0.15625 l 0,-87.15625 -119.09375,0 z"
+           style="fill:#07588d;fill-opacity:1;stroke:#042f4b;stroke-width:5.89398289;stroke-opacity:1"
+           inkscape:connector-curvature="0" />
+        <g
+           transform="translate(2.6015415,0)"
+           id="g3136">
+          <text
+             xml:space="preserve"
+             style="font-size:10.06784058px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+             x="-62.256729"
+             y="620.79108"
+             id="text3138"
+             sodipodi:linespacing="125%"
+             transform="matrix(0.99623855,-0.08665307,0.08665307,0.99623855,0,0)"><tspan
+               sodipodi:role="line"
+               id="tspan3140"
+               x="-62.256729"
+               y="620.79108"
+               style="font-size:131.79719543px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#a2c9e3;fill-opacity:1;font-family:Tangerine;-inkscape-font-specification:Tangerine Bold">S</tspan></text>
+          <text
+             transform="matrix(0.99623855,-0.08665307,0.08665307,0.99623855,0,0)"
+             sodipodi:linespacing="125%"
+             id="text3142"
+             y="620.70416"
+             x="-63.256042"
+             style="font-size:10.06784058px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+             xml:space="preserve"><tspan
+               style="font-size:131.79719543px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#a2c9e3;fill-opacity:1;font-family:Tangerine;-inkscape-font-specification:Tangerine Bold"
+               y="620.70416"
+               x="-63.256042"
+               id="tspan3144"
+               sodipodi:role="line">S</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-size:10.06784058px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+             x="-64.551155"
+             y="620.59155"
+             id="text3146"
+             sodipodi:linespacing="125%"
+             transform="matrix(0.99623855,-0.08665307,0.08665307,0.99623855,0,0)"><tspan
+               sodipodi:role="line"
+               id="tspan3148"
+               x="-64.551155"
+               y="620.59155"
+               style="font-size:131.79719543px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#a2c9e3;fill-opacity:1;font-family:Tangerine;-inkscape-font-specification:Tangerine Bold">S</tspan></text>
+          <text
+             transform="matrix(0.99623855,-0.08665307,0.08665307,0.99623855,0,0)"
+             sodipodi:linespacing="125%"
+             id="text3150"
+             y="620.47028"
+             x="-65.945892"
+             style="font-size:10.06784058px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+             xml:space="preserve"><tspan
+               style="font-size:131.79719543px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#a2c9e3;fill-opacity:1;font-family:Tangerine;-inkscape-font-specification:Tangerine Bold"
+               y="620.47028"
+               x="-65.945892"
+               id="tspan3152"
+               sodipodi:role="line">S</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-size:10.06784058px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+             x="-67.440254"
+             y="620.34033"
+             id="text3154"
+             sodipodi:linespacing="125%"
+             transform="matrix(0.99623855,-0.08665307,0.08665307,0.99623855,0,0)"><tspan
+               sodipodi:role="line"
+               id="tspan3156"
+               x="-67.440254"
+               y="620.34033"
+               style="font-size:131.79719543px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#a2c9e3;fill-opacity:1;font-family:Tangerine;-inkscape-font-specification:Tangerine Bold">S</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="g3338"
+       transform="translate(0,-0.01563263)"
+       inkscape:export-filename="/Users/ernesta/Projects/Poko Labs/Seime/# Side Files/text3229.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <text
+         inkscape:export-filename="/Users/ernesta/Projects/Poko Labs/Seime/# Side Files/text3229.png"
+         xml:space="preserve"
+         style="font-size:19.69627953px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#07588d;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+         x="-1137.8685"
+         y="796.34668"
+         id="text3158"
+         sodipodi:linespacing="125%"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"><tspan
+           sodipodi:role="line"
+           id="tspan3160"
+           x="-1137.8685"
+           y="796.34668"
+           style="font-size:114.59655762px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#07588d;fill-opacity:1;font-family:Tangerine;-inkscape-font-specification:Tangerine">Seime.lt</tspan></text>
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/Users/ernesta/Projects/Poko Labs/Seime/# Side Files/text3229.png"
+         transform="matrix(0.22767578,0,0,0.22767578,-940.73923,643.13865)"
+         id="g3214">
+        <rect
+           y="794.2536"
+           x="-833.81635"
+           height="136.88013"
+           width="136.88013"
+           id="rect3188"
+           style="fill:none;stroke:none" />
+        <path
+           id="path3190"
+           d="m -812.68665,803.52773 0,69.24619 0,0.12414 c 0.0647,27.06009 21.2077,48.96145 47.29796,48.96145 26.09027,0 47.25807,-21.90134 47.32278,-48.96145 10e-5,-0.0415 0,-0.0826 0,-0.12414 l 0,-69.24619 -94.62074,0 z"
+           style="fill:#07588d;fill-opacity:1;stroke:#042f4b;stroke-width:4.68280697;stroke-opacity:1"
+           inkscape:connector-curvature="0" />
+        <g
+           transform="matrix(0.79450634,0,0,0.79450634,-786.18864,398.67709)"
+           id="g3192">
+          <text
+             xml:space="preserve"
+             style="font-size:10.06784058px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+             x="-62.256729"
+             y="620.79108"
+             id="text3194"
+             sodipodi:linespacing="125%"
+             transform="matrix(0.99623855,-0.08665307,0.08665307,0.99623855,0,0)"><tspan
+               sodipodi:role="line"
+               id="tspan3196"
+               x="-62.256729"
+               y="620.79108"
+               style="font-size:131.79719543px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#a2c9e3;fill-opacity:1;font-family:Tangerine;-inkscape-font-specification:Tangerine Bold">S</tspan></text>
+          <text
+             transform="matrix(0.99623855,-0.08665307,0.08665307,0.99623855,0,0)"
+             sodipodi:linespacing="125%"
+             id="text3198"
+             y="620.70416"
+             x="-63.256042"
+             style="font-size:10.06784058px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+             xml:space="preserve"><tspan
+               style="font-size:131.79719543px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#a2c9e3;fill-opacity:1;font-family:Tangerine;-inkscape-font-specification:Tangerine Bold"
+               y="620.70416"
+               x="-63.256042"
+               id="tspan3200"
+               sodipodi:role="line">S</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-size:10.06784058px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+             x="-64.551155"
+             y="620.59155"
+             id="text3202"
+             sodipodi:linespacing="125%"
+             transform="matrix(0.99623855,-0.08665307,0.08665307,0.99623855,0,0)"><tspan
+               sodipodi:role="line"
+               id="tspan3204"
+               x="-64.551155"
+               y="620.59155"
+               style="font-size:131.79719543px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#a2c9e3;fill-opacity:1;font-family:Tangerine;-inkscape-font-specification:Tangerine Bold">S</tspan></text>
+          <text
+             transform="matrix(0.99623855,-0.08665307,0.08665307,0.99623855,0,0)"
+             sodipodi:linespacing="125%"
+             id="text3206"
+             y="620.47028"
+             x="-65.945892"
+             style="font-size:10.06784058px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+             xml:space="preserve"><tspan
+               style="font-size:131.79719543px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#a2c9e3;fill-opacity:1;font-family:Tangerine;-inkscape-font-specification:Tangerine Bold"
+               y="620.47028"
+               x="-65.945892"
+               id="tspan3208"
+               sodipodi:role="line">S</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-size:10.06784058px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+             x="-67.440254"
+             y="620.34033"
+             id="text3210"
+             sodipodi:linespacing="125%"
+             transform="matrix(0.99623855,-0.08665307,0.08665307,0.99623855,0,0)"><tspan
+               sodipodi:role="line"
+               id="tspan3212"
+               x="-67.440254"
+               y="620.34033"
+               style="font-size:131.79719543px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#a2c9e3;fill-opacity:1;font-family:Tangerine;-inkscape-font-specification:Tangerine Bold">S</tspan></text>
+        </g>
+      </g>
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         sodipodi:linespacing="125%"
+         id="text3229"
+         y="849.55157"
+         x="-1096.1469"
+         style="font-size:24.38243294px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#042f4b;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+         xml:space="preserve"><tspan
+           id="tspan3237"
+           y="849.55157"
+           x="-1096.1469"
+           sodipodi:role="line">Seimo statistika kitaip</tspan></text>
+    </g>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect3189"
+       width="300"
+       height="300"
+       x="-650.64905"
+       y="3224.8286"
+       inkscape:export-filename="/Users/ernesta/Projects/Poko Labs/Seime/# Side Files/g3159.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g3159"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="matrix(3.90625,0,0,3.90625,274.02811,903.37185)">
+      <rect
+         y="600.69293"
+         x="-230.31735"
+         height="64"
+         width="64"
+         id="rect3161"
+         style="fill:none;stroke:none" />
+      <g
+         transform="matrix(0.3714813,0,0,0.3714813,-209.01486,415.73624)"
+         id="g3163">
+        <path
+           inkscape:connector-curvature="0"
+           style="fill:#07588d;fill-opacity:1;stroke:#042f4b;stroke-width:5.89398289;stroke-opacity:1"
+           d="m -30.75,509.5625 0,87.15625 0,0.15625 c 0.08148,34.05899 26.6929231,61.625 59.53125,61.625 32.838351,0 59.48106,-27.56598 59.5625,-61.625 1.25e-4,-0.0522 0,-0.10401 0,-0.15625 l 0,-87.15625 -119.09375,0 z"
+           id="path3165" />
+        <g
+           id="g3167"
+           transform="translate(2.6015415,0)">
+          <text
+             transform="matrix(0.99623855,-0.08665307,0.08665307,0.99623855,0,0)"
+             sodipodi:linespacing="125%"
+             id="text3169"
+             y="620.79108"
+             x="-62.256729"
+             style="font-size:10.06784058px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+             xml:space="preserve"><tspan
+               style="font-size:131.79719543px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#a2c9e3;fill-opacity:1;font-family:Tangerine;-inkscape-font-specification:Tangerine Bold"
+               y="620.79108"
+               x="-62.256729"
+               id="tspan3171"
+               sodipodi:role="line">S</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-size:10.06784058px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+             x="-63.256042"
+             y="620.70416"
+             id="text3173"
+             sodipodi:linespacing="125%"
+             transform="matrix(0.99623855,-0.08665307,0.08665307,0.99623855,0,0)"><tspan
+               sodipodi:role="line"
+               id="tspan3175"
+               x="-63.256042"
+               y="620.70416"
+               style="font-size:131.79719543px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#a2c9e3;fill-opacity:1;font-family:Tangerine;-inkscape-font-specification:Tangerine Bold">S</tspan></text>
+          <text
+             transform="matrix(0.99623855,-0.08665307,0.08665307,0.99623855,0,0)"
+             sodipodi:linespacing="125%"
+             id="text3177"
+             y="620.59155"
+             x="-64.551155"
+             style="font-size:10.06784058px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+             xml:space="preserve"><tspan
+               style="font-size:131.79719543px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#a2c9e3;fill-opacity:1;font-family:Tangerine;-inkscape-font-specification:Tangerine Bold"
+               y="620.59155"
+               x="-64.551155"
+               id="tspan3179"
+               sodipodi:role="line">S</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-size:10.06784058px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+             x="-65.945892"
+             y="620.47028"
+             id="text3181"
+             sodipodi:linespacing="125%"
+             transform="matrix(0.99623855,-0.08665307,0.08665307,0.99623855,0,0)"><tspan
+               sodipodi:role="line"
+               id="tspan3183"
+               x="-65.945892"
+               y="620.47028"
+               style="font-size:131.79719543px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#a2c9e3;fill-opacity:1;font-family:Tangerine;-inkscape-font-specification:Tangerine Bold">S</tspan></text>
+          <text
+             transform="matrix(0.99623855,-0.08665307,0.08665307,0.99623855,0,0)"
+             sodipodi:linespacing="125%"
+             id="text3185"
+             y="620.34033"
+             x="-67.440254"
+             style="font-size:10.06784058px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Gill Sans;-inkscape-font-specification:Gill Sans"
+             xml:space="preserve"><tspan
+               style="font-size:131.79719543px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#a2c9e3;fill-opacity:1;font-family:Tangerine;-inkscape-font-specification:Tangerine Bold"
+               y="620.34033"
+               x="-67.440254"
+               id="tspan3187"
+               sodipodi:role="line">S</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/Users/ernesta/Dropbox/# Projects/Seime.lt/Images/path3875.png"
+       transform="matrix(1.0108848,0,0,0.91233698,-493.54019,-336.06013)"
+       id="g3175">
+      <path
+         inkscape:connector-curvature="0"
+         style="opacity:0.4;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.04013133;stroke-opacity:1"
+         d="m 651.25005,395.03125 14.40625,14.40625 0,95.3125 c 0,4.56773 -3.68227,8.25 -8.25,8.25 l -6.09375,0 -15.375,0 -8.25,0 0,-8.25 0,-101.46875 0,-8.25 8.25,0 15.3125,0 z"
+         id="path3177"
+         inkscape:export-filename="/Users/ernesta/Projects/Poko Labs/Seime/# Side Files/path3865.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <path
+         style="opacity:0.4;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.70698392;stroke-opacity:1"
+         d="m 659.41225,408.23614 c -3.83184,0 -6.92084,-3.07294 -6.92085,-6.88481 l 0,-5.13752 12.08525,12.02233 -0.0525,0 -5.11199,0 z"
+         id="path3179"
+         inkscape:connector-curvature="0"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+    </g>
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       id="path3181"
+       d="m 179.0228,235.82907 c 0,4.1835 -3.68973,7.55603 -8.2667,7.55603 l -6.10608,0 -15.40612,0 -8.2667,0 0,-7.55603 0,-92.93352 0,-7.55604 8.2667,0 15.40612,0 6.10608,0 c 4.57697,0 8.2667,3.37252 8.2667,7.55604 l 0,92.93352 z"
+       style="opacity:0.4;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.95441651;stroke-opacity:1"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/Users/ernesta/Dropbox/# Projects/Seime.lt/Images/path3875.png" />
+    <rect
+       inkscape:export-filename="/Users/ernesta/Dropbox/# Projects/Seime.lt/Images/path3875.png"
+       transform="scale(1,-1)"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       ry="6.6230001"
+       y="-274.59714"
+       x="140.76505"
+       height="28.469902"
+       width="88.469902"
+       id="rect3183"
+       style="opacity:0.4;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.53009856;stroke-opacity:1" />
+    <rect
+       inkscape:export-filename="/Users/ernesta/Dropbox/# Projects/Seime.lt/Images/path3875.png"
+       ry="6.6230001"
+       style="opacity:0.4;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.66273665;stroke-opacity:1"
+       id="rect3185"
+       width="87.337265"
+       height="87.337265"
+       x="141.33136"
+       y="-21.030815"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="scale(1,-1)" />
+    <rect
+       inkscape:export-filename="/Users/ernesta/Dropbox/# Projects/Seime.lt/Images/path3875.png"
+       style="opacity:0.4;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.8875789;stroke-opacity:1"
+       id="rect3187"
+       width="29.112421"
+       height="29.112421"
+       x="140.44379"
+       y="-305.9184"
+       ry="6.7724705"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="scale(1,-1)" />
+  </g>
+</svg>
